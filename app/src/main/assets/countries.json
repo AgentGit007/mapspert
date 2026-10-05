@@ -1,0 +1,4547 @@
+[
+ {
+  "alpha2": "AD",
+  "alpha3": "AND",
+  "numeric": "020",
+  "name": "Andorra",
+  "capitals": [
+   "Andorra la Vella"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ad",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ad",
+  "iso_note": null
+ },
+ {
+  "alpha2": "AE",
+  "alpha3": "ARE",
+  "numeric": "784",
+  "name": "United Arab Emirates",
+  "capitals": [
+   "Abu Dhabi"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ae",
+  "tld_in_use": true,
+  "tld_other": [
+   ".امارات"
+  ],
+  "flag": "ae",
+  "iso_note": null
+ },
+ {
+  "alpha2": "AF",
+  "alpha3": "AFG",
+  "numeric": "004",
+  "name": "Afghanistan",
+  "capitals": [
+   "Kabul"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".af",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "af",
+  "iso_note": "Government not internationally recognised"
+ },
+ {
+  "alpha2": "AG",
+  "alpha3": "ATG",
+  "numeric": "028",
+  "name": "Antigua and Barbuda",
+  "capitals": [
+   "Q36262"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ag",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ag",
+  "iso_note": null
+ },
+ {
+  "alpha2": "AI",
+  "alpha3": "AIA",
+  "numeric": "660",
+  "name": "Anguilla",
+  "capitals": [
+   "The Valley"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".ai",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ai",
+  "iso_note": null
+ },
+ {
+  "alpha2": "AL",
+  "alpha3": "ALB",
+  "numeric": "008",
+  "name": "Albania",
+  "capitals": [
+   "Tirana"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".al",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "al",
+  "iso_note": null
+ },
+ {
+  "alpha2": "AM",
+  "alpha3": "ARM",
+  "numeric": "051",
+  "name": "Armenia",
+  "capitals": [
+   "Yerevan"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".am",
+  "tld_in_use": true,
+  "tld_other": [
+   ".հայ"
+  ],
+  "flag": "am",
+  "iso_note": null
+ },
+ {
+  "alpha2": "AO",
+  "alpha3": "AGO",
+  "numeric": "024",
+  "name": "Angola",
+  "capitals": [
+   "Luanda"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ao",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ao",
+  "iso_note": null
+ },
+ {
+  "alpha2": "AQ",
+  "alpha3": "ATA",
+  "numeric": "",
+  "name": "Antarctica",
+  "capitals": [],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".aq",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "aq",
+  "iso_note": null
+ },
+ {
+  "alpha2": "AR",
+  "alpha3": "ARG",
+  "numeric": "032",
+  "name": "Argentina",
+  "capitals": [
+   "Buenos Aires"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ar",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ar",
+  "iso_note": null
+ },
+ {
+  "alpha2": "AS",
+  "alpha3": "ASM",
+  "numeric": "016",
+  "name": "American Samoa",
+  "capitals": [
+   "Pago Pago"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".as",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "as",
+  "iso_note": null
+ },
+ {
+  "alpha2": "AT",
+  "alpha3": "AUT",
+  "numeric": "040",
+  "name": "Austria",
+  "capitals": [
+   "Vienna"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".at",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "at",
+  "iso_note": null
+ },
+ {
+  "alpha2": "AU",
+  "alpha3": "AUS",
+  "numeric": "036",
+  "name": "Australia",
+  "capitals": [
+   "Canberra"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".au",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "au",
+  "iso_note": null
+ },
+ {
+  "alpha2": "AW",
+  "alpha3": "ABW",
+  "numeric": "533",
+  "name": "Aruba",
+  "capitals": [
+   "Oranjestad"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".aw",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "aw",
+  "iso_note": null
+ },
+ {
+  "alpha2": "AX",
+  "alpha3": "ALA",
+  "numeric": "248",
+  "name": "Åland",
+  "capitals": [
+   "Mariehamn"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".ax",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ax",
+  "iso_note": null
+ },
+ {
+  "alpha2": "AZ",
+  "alpha3": "AZE",
+  "numeric": "031",
+  "name": "Azerbaijan",
+  "capitals": [
+   "Baku"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".az",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "az",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BA",
+  "alpha3": "BIH",
+  "numeric": "070",
+  "name": "Bosnia and Herzegovina",
+  "capitals": [
+   "Sarajevo"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ba",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ba",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BB",
+  "alpha3": "BRB",
+  "numeric": "052",
+  "name": "Barbados",
+  "capitals": [
+   "Bridgetown"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".bb",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "bb",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BD",
+  "alpha3": "BGD",
+  "numeric": "050",
+  "name": "Bangladesh",
+  "capitals": [
+   "Dhaka"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".bd",
+  "tld_in_use": true,
+  "tld_other": [
+   ".বাংলা"
+  ],
+  "flag": "bd",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BE",
+  "alpha3": "BEL",
+  "numeric": "056",
+  "name": "Belgium",
+  "capitals": [
+   "Brussels"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".be",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "be",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BF",
+  "alpha3": "BFA",
+  "numeric": "854",
+  "name": "Burkina Faso",
+  "capitals": [
+   "Ouagadougou"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".bf",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "bf",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BG",
+  "alpha3": "BGR",
+  "numeric": "100",
+  "name": "Bulgaria",
+  "capitals": [
+   "Sofia"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".bg",
+  "tld_in_use": true,
+  "tld_other": [
+   ".бг"
+  ],
+  "flag": "bg",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BH",
+  "alpha3": "BHR",
+  "numeric": "048",
+  "name": "Bahrain",
+  "capitals": [
+   "Manama"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".bh",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "bh",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BI",
+  "alpha3": "BDI",
+  "numeric": "108",
+  "name": "Burundi",
+  "capitals": [
+   "Gitega"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".bi",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "bi",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BJ",
+  "alpha3": "BEN",
+  "numeric": "204",
+  "name": "Benin",
+  "capitals": [
+   "Porto-Novo"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".bj",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "bj",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BL",
+  "alpha3": "BLM",
+  "numeric": "652",
+  "name": "Saint Barthélemy",
+  "capitals": [
+   "Gustavia"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".bl",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "bl",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BM",
+  "alpha3": "BMU",
+  "numeric": "060",
+  "name": "Bermuda",
+  "capitals": [
+   "Hamilton"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".bm",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "bm",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BN",
+  "alpha3": "BRN",
+  "numeric": "096",
+  "name": "Brunei",
+  "capitals": [
+   "Bandar Seri Begawan"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".bn",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "bn",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BO",
+  "alpha3": "BOL",
+  "numeric": "068",
+  "name": "Bolivia",
+  "capitals": [
+   "Sucre",
+   "La Paz"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".bo",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "bo",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BQ",
+  "alpha3": "BES",
+  "numeric": "535",
+  "name": "Caribbean Netherlands",
+  "capitals": [],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".bq",
+  "tld_in_use": true,
+  "tld_other": [
+   ".nl"
+  ],
+  "flag": "bq",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BR",
+  "alpha3": "BRA",
+  "numeric": "076",
+  "name": "Brazil",
+  "capitals": [
+   "Brasília"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".br",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "br",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BS",
+  "alpha3": "BHS",
+  "numeric": "044",
+  "name": "The Bahamas",
+  "capitals": [
+   "Nassau"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".bs",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "bs",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BT",
+  "alpha3": "BTN",
+  "numeric": "064",
+  "name": "Bhutan",
+  "capitals": [
+   "Thimphu"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".bt",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "bt",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BV",
+  "alpha3": "BVT",
+  "numeric": "074",
+  "name": "Bouvet Island",
+  "capitals": [],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".bv",
+  "tld_in_use": false,
+  "tld_other": [],
+  "flag": "bv",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BW",
+  "alpha3": "BWA",
+  "numeric": "072",
+  "name": "Botswana",
+  "capitals": [
+   "Gaborone"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".bw",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "bw",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BY",
+  "alpha3": "BLR",
+  "numeric": "112",
+  "name": "Belarus",
+  "capitals": [
+   "Minsk"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".by",
+  "tld_in_use": true,
+  "tld_other": [
+   ".бел"
+  ],
+  "flag": "by",
+  "iso_note": null
+ },
+ {
+  "alpha2": "BZ",
+  "alpha3": "BLZ",
+  "numeric": "084",
+  "name": "Belize",
+  "capitals": [
+   "Belmopan"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".bz",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "bz",
+  "iso_note": null
+ },
+ {
+  "alpha2": "CA",
+  "alpha3": "CAN",
+  "numeric": "124",
+  "name": "Canada",
+  "capitals": [
+   "Ottawa"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ca",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ca",
+  "iso_note": null
+ },
+ {
+  "alpha2": "CC",
+  "alpha3": "CCK",
+  "numeric": "166",
+  "name": "Cocos (Keeling) Islands",
+  "capitals": [
+   "West Island"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".cc",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "cc",
+  "iso_note": null
+ },
+ {
+  "alpha2": "CD",
+  "alpha3": "COD",
+  "numeric": "180",
+  "name": "Democratic Republic of the Congo",
+  "capitals": [
+   "Kinshasa"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".cd",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "cd",
+  "iso_note": null
+ },
+ {
+  "alpha2": "CF",
+  "alpha3": "CAF",
+  "numeric": "140",
+  "name": "Central African Republic",
+  "capitals": [
+   "Bangui"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".cf",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "cf",
+  "iso_note": null
+ },
+ {
+  "alpha2": "CG",
+  "alpha3": "COG",
+  "numeric": "178",
+  "name": "Republic of the Congo",
+  "capitals": [
+   "Brazzaville"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".cg",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "cg",
+  "iso_note": null
+ },
+ {
+  "alpha2": "CH",
+  "alpha3": "CHE",
+  "numeric": "756",
+  "name": "Switzerland",
+  "capitals": [
+   "Bern"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ch",
+  "tld_in_use": true,
+  "tld_other": [
+   ".swiss"
+  ],
+  "flag": "ch",
+  "iso_note": null
+ },
+ {
+  "alpha2": "CI",
+  "alpha3": "CIV",
+  "numeric": "384",
+  "name": "Ivory Coast",
+  "capitals": [
+   "Yamoussoukro"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ci",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ci",
+  "iso_note": null
+ },
+ {
+  "alpha2": "CK",
+  "alpha3": "COK",
+  "numeric": "184",
+  "name": "Cook Islands",
+  "capitals": [
+   "Avarua"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".ck",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ck",
+  "iso_note": null
+ },
+ {
+  "alpha2": "CL",
+  "alpha3": "CHL",
+  "numeric": "152",
+  "name": "Chile",
+  "capitals": [
+   "Santiago"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".cl",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "cl",
+  "iso_note": null
+ },
+ {
+  "alpha2": "CM",
+  "alpha3": "CMR",
+  "numeric": "120",
+  "name": "Cameroon",
+  "capitals": [
+   "Yaoundé"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".cm",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "cm",
+  "iso_note": null
+ },
+ {
+  "alpha2": "CN",
+  "alpha3": "CHN",
+  "numeric": "156",
+  "name": "People's Republic of China",
+  "capitals": [
+   "Beijing"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".cn",
+  "tld_in_use": true,
+  "tld_other": [
+   ".公司",
+   ".中国",
+   ".中國"
+  ],
+  "flag": "cn",
+  "iso_note": "Sovereignty disputed with Taiwan"
+ },
+ {
+  "alpha2": "CO",
+  "alpha3": "COL",
+  "numeric": "170",
+  "name": "Colombia",
+  "capitals": [
+   "Bogotá"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".co",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "co",
+  "iso_note": null
+ },
+ {
+  "alpha2": "CR",
+  "alpha3": "CRI",
+  "numeric": "188",
+  "name": "Costa Rica",
+  "capitals": [
+   "San José"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".cr",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "cr",
+  "iso_note": null
+ },
+ {
+  "alpha2": "CU",
+  "alpha3": "CUB",
+  "numeric": "192",
+  "name": "Cuba",
+  "capitals": [
+   "Havana"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".cu",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "cu",
+  "iso_note": null
+ },
+ {
+  "alpha2": "CV",
+  "alpha3": "CPV",
+  "numeric": "132",
+  "name": "Cape Verde",
+  "capitals": [
+   "Praia"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".cv",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "cv",
+  "iso_note": null
+ },
+ {
+  "alpha2": "CW",
+  "alpha3": "CUW",
+  "numeric": "531",
+  "name": "Curaçao",
+  "capitals": [
+   "Willemstad"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".cw",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "cw",
+  "iso_note": null
+ },
+ {
+  "alpha2": "CX",
+  "alpha3": "CXR",
+  "numeric": "162",
+  "name": "Christmas Island",
+  "capitals": [
+   "Flying Fish Cove"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".cx",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "cx",
+  "iso_note": null
+ },
+ {
+  "alpha2": "CY",
+  "alpha3": "CYP",
+  "numeric": "196",
+  "name": "Cyprus",
+  "capitals": [
+   "Nicosia"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".cy",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "cy",
+  "iso_note": "Sovereignty disputed with Northern Cyprus"
+ },
+ {
+  "alpha2": "CZ",
+  "alpha3": "CZE",
+  "numeric": "203",
+  "name": "Czech Republic",
+  "capitals": [
+   "Prague"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".cz",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "cz",
+  "iso_note": null
+ },
+ {
+  "alpha2": "DE",
+  "alpha3": "DEU",
+  "numeric": "276",
+  "name": "Germany",
+  "capitals": [
+   "Berlin"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".de",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "de",
+  "iso_note": null
+ },
+ {
+  "alpha2": "DJ",
+  "alpha3": "DJI",
+  "numeric": "262",
+  "name": "Djibouti",
+  "capitals": [
+   "Djibouti"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".dj",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "dj",
+  "iso_note": null
+ },
+ {
+  "alpha2": "DK",
+  "alpha3": "DNK",
+  "numeric": "208",
+  "name": "Denmark",
+  "capitals": [
+   "Copenhagen"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": false,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".dk",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "dk",
+  "iso_note": null
+ },
+ {
+  "alpha2": "DM",
+  "alpha3": "DMA",
+  "numeric": "212",
+  "name": "Dominica",
+  "capitals": [
+   "Roseau"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".dm",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "dm",
+  "iso_note": null
+ },
+ {
+  "alpha2": "DO",
+  "alpha3": "DOM",
+  "numeric": "214",
+  "name": "Dominican Republic",
+  "capitals": [
+   "Santo Domingo"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".do",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "do",
+  "iso_note": null
+ },
+ {
+  "alpha2": "DZ",
+  "alpha3": "DZA",
+  "numeric": "012",
+  "name": "Algeria",
+  "capitals": [
+   "Algiers"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".dz",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "dz",
+  "iso_note": null
+ },
+ {
+  "alpha2": "EC",
+  "alpha3": "ECU",
+  "numeric": "218",
+  "name": "Ecuador",
+  "capitals": [
+   "Quito"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ec",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ec",
+  "iso_note": null
+ },
+ {
+  "alpha2": "EE",
+  "alpha3": "EST",
+  "numeric": "233",
+  "name": "Estonia",
+  "capitals": [
+   "Tallinn"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ee",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ee",
+  "iso_note": null
+ },
+ {
+  "alpha2": "EG",
+  "alpha3": "EGY",
+  "numeric": "818",
+  "name": "Egypt",
+  "capitals": [
+   "Cairo"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".eg",
+  "tld_in_use": true,
+  "tld_other": [
+   ".مصر"
+  ],
+  "flag": "eg",
+  "iso_note": null
+ },
+ {
+  "alpha2": "EH",
+  "alpha3": "ESH",
+  "numeric": "732",
+  "name": "Western Sahara",
+  "capitals": [],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": null,
+  "tld_in_use": false,
+  "tld_other": [],
+  "flag": "eh",
+  "iso_note": "Sovereignty disputed with Morocco"
+ },
+ {
+  "alpha2": "ER",
+  "alpha3": "ERI",
+  "numeric": "232",
+  "name": "Eritrea",
+  "capitals": [
+   "Asmara"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".er",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "er",
+  "iso_note": null
+ },
+ {
+  "alpha2": "ES",
+  "alpha3": "ESP",
+  "numeric": "724",
+  "name": "Spain",
+  "capitals": [
+   "Madrid"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".es",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "es",
+  "iso_note": null
+ },
+ {
+  "alpha2": "ET",
+  "alpha3": "ETH",
+  "numeric": "231",
+  "name": "Ethiopia",
+  "capitals": [
+   "Addis Ababa"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".et",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "et",
+  "iso_note": null
+ },
+ {
+  "alpha2": "FI",
+  "alpha3": "FIN",
+  "numeric": "246",
+  "name": "Finland",
+  "capitals": [
+   "Helsinki"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".fi",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "fi",
+  "iso_note": null
+ },
+ {
+  "alpha2": "FJ",
+  "alpha3": "FJI",
+  "numeric": "242",
+  "name": "Fiji",
+  "capitals": [
+   "Suva"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".fj",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "fj",
+  "iso_note": null
+ },
+ {
+  "alpha2": "FK",
+  "alpha3": "FLK",
+  "numeric": "238",
+  "name": "Falkland Islands",
+  "capitals": [
+   "Stanley"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".fk",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "fk",
+  "iso_note": "Sovereignty and name disputed"
+ },
+ {
+  "alpha2": "FM",
+  "alpha3": "FSM",
+  "numeric": "583",
+  "name": "Federated States of Micronesia",
+  "capitals": [
+   "Palikir"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".fm",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "fm",
+  "iso_note": null
+ },
+ {
+  "alpha2": "FO",
+  "alpha3": "FRO",
+  "numeric": "234",
+  "name": "Faroe Islands",
+  "capitals": [
+   "Tórshavn"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".fo",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "fo",
+  "iso_note": null
+ },
+ {
+  "alpha2": "FR",
+  "alpha3": "FRA",
+  "numeric": "250",
+  "name": "France",
+  "capitals": [
+   "Paris"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".fr",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "fr",
+  "iso_note": null
+ },
+ {
+  "alpha2": "GA",
+  "alpha3": "GAB",
+  "numeric": "266",
+  "name": "Gabon",
+  "capitals": [
+   "Libreville"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ga",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ga",
+  "iso_note": null
+ },
+ {
+  "alpha2": "GB",
+  "alpha3": "GBR",
+  "numeric": "826",
+  "name": "United Kingdom",
+  "capitals": [
+   "London"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".uk",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "gb",
+  "iso_note": null
+ },
+ {
+  "alpha2": "GD",
+  "alpha3": "GRD",
+  "numeric": "308",
+  "name": "Grenada",
+  "capitals": [
+   "St. George's"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".gd",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "gd",
+  "iso_note": null
+ },
+ {
+  "alpha2": "GE",
+  "alpha3": "GEO",
+  "numeric": "268",
+  "name": "Georgia",
+  "capitals": [
+   "Tbilisi"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ge",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ge",
+  "iso_note": null
+ },
+ {
+  "alpha2": "GF",
+  "alpha3": "GUF",
+  "numeric": "254",
+  "name": "French Guiana",
+  "capitals": [
+   "Cayenne"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".gf",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "gf",
+  "iso_note": null
+ },
+ {
+  "alpha2": "GG",
+  "alpha3": "GGY",
+  "numeric": "831",
+  "name": "Guernsey",
+  "capitals": [
+   "Saint Peter Port"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".gg",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "gg",
+  "iso_note": null
+ },
+ {
+  "alpha2": "GH",
+  "alpha3": "GHA",
+  "numeric": "288",
+  "name": "Ghana",
+  "capitals": [
+   "Accra"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".gh",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "gh",
+  "iso_note": null
+ },
+ {
+  "alpha2": "GI",
+  "alpha3": "GIB",
+  "numeric": "292",
+  "name": "Gibraltar",
+  "capitals": [
+   "Gibraltar"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".gi",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "gi",
+  "iso_note": null
+ },
+ {
+  "alpha2": "GL",
+  "alpha3": "GRL",
+  "numeric": "304",
+  "name": "Greenland",
+  "capitals": [
+   "Nuuk"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".gl",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "gl",
+  "iso_note": null
+ },
+ {
+  "alpha2": "GM",
+  "alpha3": "GMB",
+  "numeric": "270",
+  "name": "The Gambia",
+  "capitals": [
+   "Banjul"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".gm",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "gm",
+  "iso_note": null
+ },
+ {
+  "alpha2": "GN",
+  "alpha3": "GIN",
+  "numeric": "324",
+  "name": "Guinea",
+  "capitals": [
+   "Conakry"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".gn",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "gn",
+  "iso_note": null
+ },
+ {
+  "alpha2": "GP",
+  "alpha3": "GLP",
+  "numeric": "312",
+  "name": "Guadeloupe",
+  "capitals": [
+   "Basse-Terre"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".gp",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "gp",
+  "iso_note": null
+ },
+ {
+  "alpha2": "GQ",
+  "alpha3": "GNQ",
+  "numeric": "226",
+  "name": "Equatorial Guinea",
+  "capitals": [
+   "Ciudad de la Paz"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".gq",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "gq",
+  "iso_note": null
+ },
+ {
+  "alpha2": "GR",
+  "alpha3": "GRC",
+  "numeric": "300",
+  "name": "Greece",
+  "capitals": [
+   "Athens"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".gr",
+  "tld_in_use": true,
+  "tld_other": [
+   ".ελ"
+  ],
+  "flag": "gr",
+  "iso_note": null
+ },
+ {
+  "alpha2": "GS",
+  "alpha3": "SGS",
+  "numeric": "239",
+  "name": "South Georgia and the South Sandwich Islands",
+  "capitals": [
+   "King Edward Point"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".gs",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "gs",
+  "iso_note": null
+ },
+ {
+  "alpha2": "GT",
+  "alpha3": "GTM",
+  "numeric": "320",
+  "name": "Guatemala",
+  "capitals": [
+   "Guatemala City"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".gt",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "gt",
+  "iso_note": null
+ },
+ {
+  "alpha2": "GU",
+  "alpha3": "GUM",
+  "numeric": "316",
+  "name": "Guam",
+  "capitals": [
+   "Hagåtña"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".gu",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "gu",
+  "iso_note": null
+ },
+ {
+  "alpha2": "GW",
+  "alpha3": "GNB",
+  "numeric": "624",
+  "name": "Guinea-Bissau",
+  "capitals": [
+   "Bissau"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".gw",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "gw",
+  "iso_note": null
+ },
+ {
+  "alpha2": "GY",
+  "alpha3": "GUY",
+  "numeric": "328",
+  "name": "Guyana",
+  "capitals": [
+   "Georgetown"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".gy",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "gy",
+  "iso_note": null
+ },
+ {
+  "alpha2": "HK",
+  "alpha3": "HKG",
+  "numeric": "344",
+  "name": "Hong Kong",
+  "capitals": [],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".hk",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "hk",
+  "iso_note": null
+ },
+ {
+  "alpha2": "HM",
+  "alpha3": "HMD",
+  "numeric": "334",
+  "name": "Heard Island and McDonald Islands",
+  "capitals": [],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".hm",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "hm",
+  "iso_note": null
+ },
+ {
+  "alpha2": "HN",
+  "alpha3": "HND",
+  "numeric": "340",
+  "name": "Honduras",
+  "capitals": [
+   "Tegucigalpa"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".hn",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "hn",
+  "iso_note": null
+ },
+ {
+  "alpha2": "HR",
+  "alpha3": "HRV",
+  "numeric": "191",
+  "name": "Croatia",
+  "capitals": [
+   "Zagreb"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".hr",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "hr",
+  "iso_note": null
+ },
+ {
+  "alpha2": "HT",
+  "alpha3": "HTI",
+  "numeric": "332",
+  "name": "Haiti",
+  "capitals": [
+   "Port-au-Prince"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ht",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ht",
+  "iso_note": null
+ },
+ {
+  "alpha2": "HU",
+  "alpha3": "HUN",
+  "numeric": "348",
+  "name": "Hungary",
+  "capitals": [
+   "Budapest"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".hu",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "hu",
+  "iso_note": null
+ },
+ {
+  "alpha2": "ID",
+  "alpha3": "IDN",
+  "numeric": "360",
+  "name": "Indonesia",
+  "capitals": [
+   "Jakarta"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".id",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "id",
+  "iso_note": null
+ },
+ {
+  "alpha2": "IE",
+  "alpha3": "IRL",
+  "numeric": "372",
+  "name": "Ireland",
+  "capitals": [
+   "Dublin"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ie",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ie",
+  "iso_note": null
+ },
+ {
+  "alpha2": "IL",
+  "alpha3": "ISR",
+  "numeric": "376",
+  "name": "Israel",
+  "capitals": [
+   "Jerusalem"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".il",
+  "tld_in_use": true,
+  "tld_other": [
+   "ישראל."
+  ],
+  "flag": "il",
+  "iso_note": null
+ },
+ {
+  "alpha2": "IM",
+  "alpha3": "IMN",
+  "numeric": "833",
+  "name": "Isle of Man",
+  "capitals": [
+   "Douglas"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".im",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "im",
+  "iso_note": null
+ },
+ {
+  "alpha2": "IN",
+  "alpha3": "IND",
+  "numeric": "356",
+  "name": "India",
+  "capitals": [
+   "New Delhi"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".in",
+  "tld_in_use": true,
+  "tld_other": [
+   ".ਭਾਰਤ",
+   ".இந்தியா",
+   ".భారత్",
+   ".ভারত",
+   ".ભારત",
+   ".بھارت",
+   ".भारत",
+   ".ଭାରତ",
+   ".ഭാരതം",
+   ".ಭಾರತ",
+   ".ভাৰত"
+  ],
+  "flag": "in",
+  "iso_note": null
+ },
+ {
+  "alpha2": "IO",
+  "alpha3": "IOT",
+  "numeric": "086",
+  "name": "British Indian Ocean Territory",
+  "capitals": [
+   "Diego Garcia"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".io",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "io",
+  "iso_note": null
+ },
+ {
+  "alpha2": "IQ",
+  "alpha3": "IRQ",
+  "numeric": "368",
+  "name": "Iraq",
+  "capitals": [
+   "Baghdad"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".iq",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "iq",
+  "iso_note": null
+ },
+ {
+  "alpha2": "IR",
+  "alpha3": "IRN",
+  "numeric": "364",
+  "name": "Iran",
+  "capitals": [
+   "Tehran"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ir",
+  "tld_in_use": true,
+  "tld_other": [
+   "ایران."
+  ],
+  "flag": "ir",
+  "iso_note": null
+ },
+ {
+  "alpha2": "IS",
+  "alpha3": "ISL",
+  "numeric": "352",
+  "name": "Iceland",
+  "capitals": [
+   "Reykjavík"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".is",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "is",
+  "iso_note": null
+ },
+ {
+  "alpha2": "IT",
+  "alpha3": "ITA",
+  "numeric": "380",
+  "name": "Italy",
+  "capitals": [
+   "Rome"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".it",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "it",
+  "iso_note": null
+ },
+ {
+  "alpha2": "JE",
+  "alpha3": "JEY",
+  "numeric": "832",
+  "name": "Jersey",
+  "capitals": [
+   "Saint Helier"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".je",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "je",
+  "iso_note": null
+ },
+ {
+  "alpha2": "JM",
+  "alpha3": "JAM",
+  "numeric": "388",
+  "name": "Jamaica",
+  "capitals": [
+   "Kingston"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".jm",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "jm",
+  "iso_note": null
+ },
+ {
+  "alpha2": "JO",
+  "alpha3": "JOR",
+  "numeric": "400",
+  "name": "Jordan",
+  "capitals": [
+   "Amman"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".jo",
+  "tld_in_use": true,
+  "tld_other": [
+   ".الاردن"
+  ],
+  "flag": "jo",
+  "iso_note": null
+ },
+ {
+  "alpha2": "JP",
+  "alpha3": "JPN",
+  "numeric": "392",
+  "name": "Japan",
+  "capitals": [
+   "Tokyo"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".jp",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "jp",
+  "iso_note": null
+ },
+ {
+  "alpha2": "KE",
+  "alpha3": "KEN",
+  "numeric": "404",
+  "name": "Kenya",
+  "capitals": [
+   "Nairobi"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ke",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ke",
+  "iso_note": null
+ },
+ {
+  "alpha2": "KG",
+  "alpha3": "KGZ",
+  "numeric": "417",
+  "name": "Kyrgyzstan",
+  "capitals": [
+   "Bishkek"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".kg",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "kg",
+  "iso_note": null
+ },
+ {
+  "alpha2": "KH",
+  "alpha3": "KHM",
+  "numeric": "116",
+  "name": "Cambodia",
+  "capitals": [
+   "Phnom Penh"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".kh",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "kh",
+  "iso_note": null
+ },
+ {
+  "alpha2": "KI",
+  "alpha3": "KIR",
+  "numeric": "296",
+  "name": "Kiribati",
+  "capitals": [
+   "South Tarawa"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ki",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ki",
+  "iso_note": null
+ },
+ {
+  "alpha2": "KM",
+  "alpha3": "COM",
+  "numeric": "174",
+  "name": "Comoros",
+  "capitals": [
+   "Moroni"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".km",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "km",
+  "iso_note": null
+ },
+ {
+  "alpha2": "KN",
+  "alpha3": "KNA",
+  "numeric": "659",
+  "name": "Saint Kitts and Nevis",
+  "capitals": [
+   "Basseterre"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".kn",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "kn",
+  "iso_note": null
+ },
+ {
+  "alpha2": "KP",
+  "alpha3": "PRK",
+  "numeric": "408",
+  "name": "North Korea",
+  "capitals": [
+   "Pyongyang"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".kp",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "kp",
+  "iso_note": null
+ },
+ {
+  "alpha2": "KR",
+  "alpha3": "KOR",
+  "numeric": "410",
+  "name": "South Korea",
+  "capitals": [
+   "Seoul"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".kr",
+  "tld_in_use": true,
+  "tld_other": [
+   ".한국"
+  ],
+  "flag": "kr",
+  "iso_note": null
+ },
+ {
+  "alpha2": "KW",
+  "alpha3": "KWT",
+  "numeric": "414",
+  "name": "Kuwait",
+  "capitals": [
+   "Kuwait City"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".kw",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "kw",
+  "iso_note": null
+ },
+ {
+  "alpha2": "KY",
+  "alpha3": "CYM",
+  "numeric": "136",
+  "name": "Cayman Islands",
+  "capitals": [
+   "George Town"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".ky",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ky",
+  "iso_note": null
+ },
+ {
+  "alpha2": "KZ",
+  "alpha3": "KAZ",
+  "numeric": "398",
+  "name": "Kazakhstan",
+  "capitals": [
+   "Astana"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".kz",
+  "tld_in_use": true,
+  "tld_other": [
+   ".қаз"
+  ],
+  "flag": "kz",
+  "iso_note": null
+ },
+ {
+  "alpha2": "LA",
+  "alpha3": "LAO",
+  "numeric": "418",
+  "name": "Laos",
+  "capitals": [
+   "Vientiane"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".la",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "la",
+  "iso_note": null
+ },
+ {
+  "alpha2": "LB",
+  "alpha3": "LBN",
+  "numeric": "422",
+  "name": "Lebanon",
+  "capitals": [
+   "Beirut"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".lb",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "lb",
+  "iso_note": null
+ },
+ {
+  "alpha2": "LC",
+  "alpha3": "LCA",
+  "numeric": "662",
+  "name": "Saint Lucia",
+  "capitals": [
+   "Castries"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".lc",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "lc",
+  "iso_note": null
+ },
+ {
+  "alpha2": "LI",
+  "alpha3": "LIE",
+  "numeric": "438",
+  "name": "Liechtenstein",
+  "capitals": [
+   "Vaduz"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".li",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "li",
+  "iso_note": null
+ },
+ {
+  "alpha2": "LK",
+  "alpha3": "LKA",
+  "numeric": "144",
+  "name": "Sri Lanka",
+  "capitals": [
+   "Sri Jayawardenepura Kotte",
+   "Colombo"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".lk",
+  "tld_in_use": true,
+  "tld_other": [
+   ".இலங்கை"
+  ],
+  "flag": "lk",
+  "iso_note": null
+ },
+ {
+  "alpha2": "LR",
+  "alpha3": "LBR",
+  "numeric": "430",
+  "name": "Liberia",
+  "capitals": [
+   "Monrovia"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".lr",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "lr",
+  "iso_note": null
+ },
+ {
+  "alpha2": "LS",
+  "alpha3": "LSO",
+  "numeric": "426",
+  "name": "Lesotho",
+  "capitals": [
+   "Maseru"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ls",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ls",
+  "iso_note": null
+ },
+ {
+  "alpha2": "LT",
+  "alpha3": "LTU",
+  "numeric": "440",
+  "name": "Lithuania",
+  "capitals": [
+   "Vilnius"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".lt",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "lt",
+  "iso_note": null
+ },
+ {
+  "alpha2": "LU",
+  "alpha3": "LUX",
+  "numeric": "442",
+  "name": "Luxembourg",
+  "capitals": [
+   "Luxembourg"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".lu",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "lu",
+  "iso_note": null
+ },
+ {
+  "alpha2": "LV",
+  "alpha3": "LVA",
+  "numeric": "428",
+  "name": "Latvia",
+  "capitals": [
+   "Riga"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".lv",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "lv",
+  "iso_note": null
+ },
+ {
+  "alpha2": "LY",
+  "alpha3": "LBY",
+  "numeric": "434",
+  "name": "Libya",
+  "capitals": [
+   "Tripoli"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ly",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ly",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MA",
+  "alpha3": "MAR",
+  "numeric": "504",
+  "name": "Morocco",
+  "capitals": [
+   "Rabat"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ma",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ma",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MC",
+  "alpha3": "MCO",
+  "numeric": "492",
+  "name": "Monaco",
+  "capitals": [
+   "Monaco"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".mc",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "mc",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MD",
+  "alpha3": "MDA",
+  "numeric": "498",
+  "name": "Moldova",
+  "capitals": [
+   "Chișinău"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".md",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "md",
+  "iso_note": null
+ },
+ {
+  "alpha2": "ME",
+  "alpha3": "MNE",
+  "numeric": "499",
+  "name": "Montenegro",
+  "capitals": [
+   "Podgorica"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".me",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "me",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MF",
+  "alpha3": "MAF",
+  "numeric": "663",
+  "name": "Saint-Martin",
+  "capitals": [
+   "Marigot"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".mf",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "mf",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MG",
+  "alpha3": "MDG",
+  "numeric": "450",
+  "name": "Madagascar",
+  "capitals": [
+   "Antananarivo"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".mg",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "mg",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MH",
+  "alpha3": "MHL",
+  "numeric": "584",
+  "name": "Marshall Islands",
+  "capitals": [
+   "Majuro"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".mh",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "mh",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MK",
+  "alpha3": "MKD",
+  "numeric": "807",
+  "name": "North Macedonia",
+  "capitals": [
+   "Skopje"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".mk",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "mk",
+  "iso_note": null
+ },
+ {
+  "alpha2": "ML",
+  "alpha3": "MLI",
+  "numeric": "466",
+  "name": "Mali",
+  "capitals": [
+   "Bamako"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ml",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ml",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MM",
+  "alpha3": "MMR",
+  "numeric": "104",
+  "name": "Myanmar",
+  "capitals": [
+   "Naypyidaw"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".mm",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "mm",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MN",
+  "alpha3": "MNG",
+  "numeric": "496",
+  "name": "Mongolia",
+  "capitals": [
+   "Ulaanbaatar"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".mn",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "mn",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MO",
+  "alpha3": "MAC",
+  "numeric": "446",
+  "name": "Macau",
+  "capitals": [],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".mo",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "mo",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MP",
+  "alpha3": "MNP",
+  "numeric": "580",
+  "name": "Northern Mariana Islands",
+  "capitals": [
+   "Saipan"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".mp",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "mp",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MQ",
+  "alpha3": "MTQ",
+  "numeric": "474",
+  "name": "Martinique",
+  "capitals": [
+   "Fort-de-France"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".mq",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "mq",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MR",
+  "alpha3": "MRT",
+  "numeric": "478",
+  "name": "Mauritania",
+  "capitals": [
+   "Nouakchott"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".mr",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "mr",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MS",
+  "alpha3": "MSR",
+  "numeric": "500",
+  "name": "Montserrat",
+  "capitals": [
+   "Plymouth",
+   "Brades"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".ms",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ms",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MT",
+  "alpha3": "MLT",
+  "numeric": "470",
+  "name": "Malta",
+  "capitals": [
+   "Valletta"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".mt",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "mt",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MU",
+  "alpha3": "MUS",
+  "numeric": "480",
+  "name": "Mauritius",
+  "capitals": [
+   "Port Louis"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".mu",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "mu",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MV",
+  "alpha3": "MDV",
+  "numeric": "462",
+  "name": "Maldives",
+  "capitals": [
+   "Malé"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".mv",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "mv",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MW",
+  "alpha3": "MWI",
+  "numeric": "454",
+  "name": "Malawi",
+  "capitals": [
+   "Lilongwe"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".mw",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "mw",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MX",
+  "alpha3": "MEX",
+  "numeric": "484",
+  "name": "Mexico",
+  "capitals": [
+   "Mexico City"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".mx",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "mx",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MY",
+  "alpha3": "MYS",
+  "numeric": "458",
+  "name": "Malaysia",
+  "capitals": [
+   "Kuala Lumpur"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".my",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "my",
+  "iso_note": null
+ },
+ {
+  "alpha2": "MZ",
+  "alpha3": "MOZ",
+  "numeric": "508",
+  "name": "Mozambique",
+  "capitals": [
+   "Maputo"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".mz",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "mz",
+  "iso_note": null
+ },
+ {
+  "alpha2": "NA",
+  "alpha3": "NAM",
+  "numeric": "516",
+  "name": "Namibia",
+  "capitals": [
+   "Windhoek"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".na",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "na",
+  "iso_note": null
+ },
+ {
+  "alpha2": "NC",
+  "alpha3": "NCL",
+  "numeric": "540",
+  "name": "New Caledonia",
+  "capitals": [
+   "Nouméa"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".nc",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "nc",
+  "iso_note": null
+ },
+ {
+  "alpha2": "NE",
+  "alpha3": "NER",
+  "numeric": "562",
+  "name": "Niger",
+  "capitals": [
+   "Niamey"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ne",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ne",
+  "iso_note": null
+ },
+ {
+  "alpha2": "NF",
+  "alpha3": "NFK",
+  "numeric": "574",
+  "name": "Norfolk Island",
+  "capitals": [
+   "Kingston"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".nf",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "nf",
+  "iso_note": null
+ },
+ {
+  "alpha2": "NG",
+  "alpha3": "NGA",
+  "numeric": "566",
+  "name": "Nigeria",
+  "capitals": [
+   "Abuja"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ng",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ng",
+  "iso_note": null
+ },
+ {
+  "alpha2": "NI",
+  "alpha3": "NIC",
+  "numeric": "558",
+  "name": "Nicaragua",
+  "capitals": [
+   "Managua"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ni",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ni",
+  "iso_note": null
+ },
+ {
+  "alpha2": "NL",
+  "alpha3": "NLD",
+  "numeric": "528",
+  "name": "Kingdom of the Netherlands",
+  "capitals": [
+   "Amsterdam"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".nl",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "nl",
+  "iso_note": null
+ },
+ {
+  "alpha2": "NO",
+  "alpha3": "NOR",
+  "numeric": "578",
+  "name": "Norway",
+  "capitals": [
+   "Oslo"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".no",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "no",
+  "iso_note": null
+ },
+ {
+  "alpha2": "NP",
+  "alpha3": "NPL",
+  "numeric": "524",
+  "name": "Nepal",
+  "capitals": [
+   "Kathmandu"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".np",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "np",
+  "iso_note": null
+ },
+ {
+  "alpha2": "NR",
+  "alpha3": "NRU",
+  "numeric": "520",
+  "name": "Nauru",
+  "capitals": [
+   "Yaren District"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".nr",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "nr",
+  "iso_note": null
+ },
+ {
+  "alpha2": "NU",
+  "alpha3": "NIU",
+  "numeric": "570",
+  "name": "Niue",
+  "capitals": [
+   "Alofi"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".nu",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "nu",
+  "iso_note": null
+ },
+ {
+  "alpha2": "NZ",
+  "alpha3": "NZL",
+  "numeric": "554",
+  "name": "New Zealand",
+  "capitals": [
+   "Wellington"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".nz",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "nz",
+  "iso_note": null
+ },
+ {
+  "alpha2": "OM",
+  "alpha3": "OMN",
+  "numeric": "512",
+  "name": "Oman",
+  "capitals": [
+   "Muscat"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".om",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "om",
+  "iso_note": null
+ },
+ {
+  "alpha2": "PA",
+  "alpha3": "PAN",
+  "numeric": "591",
+  "name": "Panama",
+  "capitals": [
+   "Panama City"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".pa",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "pa",
+  "iso_note": null
+ },
+ {
+  "alpha2": "PE",
+  "alpha3": "PER",
+  "numeric": "604",
+  "name": "Peru",
+  "capitals": [
+   "Lima"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".pe",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "pe",
+  "iso_note": null
+ },
+ {
+  "alpha2": "PF",
+  "alpha3": "PYF",
+  "numeric": "258",
+  "name": "French Polynesia",
+  "capitals": [
+   "Papeete"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".pf",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "pf",
+  "iso_note": null
+ },
+ {
+  "alpha2": "PG",
+  "alpha3": "PNG",
+  "numeric": "598",
+  "name": "Papua New Guinea",
+  "capitals": [
+   "Port Moresby"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".pg",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "pg",
+  "iso_note": null
+ },
+ {
+  "alpha2": "PH",
+  "alpha3": "PHL",
+  "numeric": "608",
+  "name": "Philippines",
+  "capitals": [
+   "Manila"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ph",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ph",
+  "iso_note": null
+ },
+ {
+  "alpha2": "PK",
+  "alpha3": "PAK",
+  "numeric": "586",
+  "name": "Pakistan",
+  "capitals": [
+   "Islamabad"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".pk",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "pk",
+  "iso_note": null
+ },
+ {
+  "alpha2": "PL",
+  "alpha3": "POL",
+  "numeric": "616",
+  "name": "Poland",
+  "capitals": [
+   "Warsaw"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".pl",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "pl",
+  "iso_note": null
+ },
+ {
+  "alpha2": "PM",
+  "alpha3": "SPM",
+  "numeric": "666",
+  "name": "Saint Pierre and Miquelon",
+  "capitals": [
+   "Saint-Pierre"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".pm",
+  "tld_in_use": true,
+  "tld_other": [
+   ".fr"
+  ],
+  "flag": "pm",
+  "iso_note": null
+ },
+ {
+  "alpha2": "PN",
+  "alpha3": "PCN",
+  "numeric": "612",
+  "name": "Pitcairn Islands",
+  "capitals": [
+   "Adamstown"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".pn",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "pn",
+  "iso_note": null
+ },
+ {
+  "alpha2": "PR",
+  "alpha3": "PRI",
+  "numeric": "630",
+  "name": "Puerto Rico",
+  "capitals": [
+   "San Juan"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".pr",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "pr",
+  "iso_note": null
+ },
+ {
+  "alpha2": "PS",
+  "alpha3": "PSE",
+  "numeric": "275",
+  "name": "Palestine",
+  "capitals": [
+   "Ramallah",
+   "East Jerusalem"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "un_observer",
+  "tld": ".ps",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ps",
+  "iso_note": "Sovereignty disputed with Israel"
+ },
+ {
+  "alpha2": "PT",
+  "alpha3": "PRT",
+  "numeric": "620",
+  "name": "Portugal",
+  "capitals": [
+   "Lisbon"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".pt",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "pt",
+  "iso_note": null
+ },
+ {
+  "alpha2": "PW",
+  "alpha3": "PLW",
+  "numeric": "585",
+  "name": "Palau",
+  "capitals": [
+   "Ngerulmud"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".pw",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "pw",
+  "iso_note": null
+ },
+ {
+  "alpha2": "PY",
+  "alpha3": "PRY",
+  "numeric": "600",
+  "name": "Paraguay",
+  "capitals": [
+   "Asunción"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".py",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "py",
+  "iso_note": null
+ },
+ {
+  "alpha2": "QA",
+  "alpha3": "QAT",
+  "numeric": "634",
+  "name": "Qatar",
+  "capitals": [
+   "Doha"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".qa",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "qa",
+  "iso_note": null
+ },
+ {
+  "alpha2": "RE",
+  "alpha3": "REU",
+  "numeric": "638",
+  "name": "Réunion",
+  "capitals": [
+   "Saint-Denis"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".re",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "re",
+  "iso_note": null
+ },
+ {
+  "alpha2": "RO",
+  "alpha3": "ROU",
+  "numeric": "642",
+  "name": "Romania",
+  "capitals": [
+   "Bucharest"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": false,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ro",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ro",
+  "iso_note": null
+ },
+ {
+  "alpha2": "RS",
+  "alpha3": "SRB",
+  "numeric": "688",
+  "name": "Serbia",
+  "capitals": [
+   "Belgrade"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".rs",
+  "tld_in_use": true,
+  "tld_other": [
+   ".срб"
+  ],
+  "flag": "rs",
+  "iso_note": null
+ },
+ {
+  "alpha2": "RU",
+  "alpha3": "RUS",
+  "numeric": "643",
+  "name": "Russia",
+  "capitals": [
+   "Moscow"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ru",
+  "tld_in_use": true,
+  "tld_other": [
+   ".su",
+   ".рф",
+   ".рус"
+  ],
+  "flag": "ru",
+  "iso_note": null
+ },
+ {
+  "alpha2": "RW",
+  "alpha3": "RWA",
+  "numeric": "646",
+  "name": "Rwanda",
+  "capitals": [
+   "Kigali"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".rw",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "rw",
+  "iso_note": null
+ },
+ {
+  "alpha2": "SA",
+  "alpha3": "SAU",
+  "numeric": "682",
+  "name": "Saudi Arabia",
+  "capitals": [
+   "Riyadh"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".sa",
+  "tld_in_use": true,
+  "tld_other": [
+   "AlSaudiah"
+  ],
+  "flag": "sa",
+  "iso_note": null
+ },
+ {
+  "alpha2": "SB",
+  "alpha3": "SLB",
+  "numeric": "090",
+  "name": "Solomon Islands",
+  "capitals": [
+   "Honiara"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".sb",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "sb",
+  "iso_note": null
+ },
+ {
+  "alpha2": "SC",
+  "alpha3": "SYC",
+  "numeric": "690",
+  "name": "Seychelles",
+  "capitals": [
+   "Victoria"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".sc",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "sc",
+  "iso_note": null
+ },
+ {
+  "alpha2": "SD",
+  "alpha3": "SDN",
+  "numeric": "729",
+  "name": "Sudan",
+  "capitals": [
+   "Khartoum"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".sd",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "sd",
+  "iso_note": null
+ },
+ {
+  "alpha2": "SE",
+  "alpha3": "SWE",
+  "numeric": "752",
+  "name": "Sweden",
+  "capitals": [
+   "Stockholm"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".se",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "se",
+  "iso_note": null
+ },
+ {
+  "alpha2": "SG",
+  "alpha3": "SGP",
+  "numeric": "702",
+  "name": "Singapore",
+  "capitals": [
+   "Singapore"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".sg",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "sg",
+  "iso_note": null
+ },
+ {
+  "alpha2": "SH",
+  "alpha3": "SHN",
+  "numeric": "654",
+  "name": "Saint Helena, Ascension and Tristan da Cunha",
+  "capitals": [
+   "Jamestown"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".sh",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "sh",
+  "iso_note": null
+ },
+ {
+  "alpha2": "SI",
+  "alpha3": "SVN",
+  "numeric": "705",
+  "name": "Slovenia",
+  "capitals": [
+   "Ljubljana"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".si",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "si",
+  "iso_note": null
+ },
+ {
+  "alpha2": "SJ",
+  "alpha3": "SJM",
+  "numeric": "744",
+  "name": "Svalbard and Jan Mayen",
+  "capitals": [],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".sj",
+  "tld_in_use": false,
+  "tld_other": [],
+  "flag": "sj",
+  "iso_note": null
+ },
+ {
+  "alpha2": "SK",
+  "alpha3": "SVK",
+  "numeric": "703",
+  "name": "Slovakia",
+  "capitals": [
+   "Bratislava"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".sk",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "sk",
+  "iso_note": null
+ },
+ {
+  "alpha2": "SL",
+  "alpha3": "SLE",
+  "numeric": "694",
+  "name": "Sierra Leone",
+  "capitals": [
+   "Freetown"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".sl",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "sl",
+  "iso_note": null
+ },
+ {
+  "alpha2": "SM",
+  "alpha3": "SMR",
+  "numeric": "674",
+  "name": "San Marino",
+  "capitals": [
+   "San Marino"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".sm",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "sm",
+  "iso_note": null
+ },
+ {
+  "alpha2": "SN",
+  "alpha3": "SEN",
+  "numeric": "686",
+  "name": "Senegal",
+  "capitals": [
+   "Dakar"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".sn",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "sn",
+  "iso_note": null
+ },
+ {
+  "alpha2": "SO",
+  "alpha3": "SOM",
+  "numeric": "706",
+  "name": "Somalia",
+  "capitals": [
+   "Mogadishu"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".so",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "so",
+  "iso_note": null
+ },
+ {
+  "alpha2": "SR",
+  "alpha3": "SUR",
+  "numeric": "740",
+  "name": "Suriname",
+  "capitals": [
+   "Paramaribo"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".sr",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "sr",
+  "iso_note": null
+ },
+ {
+  "alpha2": "SS",
+  "alpha3": "SSD",
+  "numeric": "728",
+  "name": "South Sudan",
+  "capitals": [
+   "Juba"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ss",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ss",
+  "iso_note": null
+ },
+ {
+  "alpha2": "ST",
+  "alpha3": "STP",
+  "numeric": "678",
+  "name": "São Tomé and Príncipe",
+  "capitals": [
+   "São Tomé"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".st",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "st",
+  "iso_note": null
+ },
+ {
+  "alpha2": "SV",
+  "alpha3": "SLV",
+  "numeric": "222",
+  "name": "El Salvador",
+  "capitals": [
+   "San Salvador"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".sv",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "sv",
+  "iso_note": null
+ },
+ {
+  "alpha2": "SX",
+  "alpha3": "SXM",
+  "numeric": "534",
+  "name": "Sint Maarten",
+  "capitals": [
+   "Philipsburg"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".sx",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "sx",
+  "iso_note": null
+ },
+ {
+  "alpha2": "SY",
+  "alpha3": "SYR",
+  "numeric": "760",
+  "name": "Syria",
+  "capitals": [
+   "Damascus"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".sy",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "sy",
+  "iso_note": null
+ },
+ {
+  "alpha2": "SZ",
+  "alpha3": "SWZ",
+  "numeric": "748",
+  "name": "Eswatini",
+  "capitals": [
+   "Mbabane",
+   "Lobamba"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".sz",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "sz",
+  "iso_note": null
+ },
+ {
+  "alpha2": "TC",
+  "alpha3": "TCA",
+  "numeric": "796",
+  "name": "Turks and Caicos Islands",
+  "capitals": [
+   "Cockburn Town"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".tc",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "tc",
+  "iso_note": null
+ },
+ {
+  "alpha2": "TD",
+  "alpha3": "TCD",
+  "numeric": "148",
+  "name": "Chad",
+  "capitals": [
+   "N'Djamena"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".td",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "td",
+  "iso_note": null
+ },
+ {
+  "alpha2": "TF",
+  "alpha3": "ATF",
+  "numeric": "260",
+  "name": "French Southern and Antarctic Lands",
+  "capitals": [
+   "Port-aux-Français"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".tf",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "tf",
+  "iso_note": null
+ },
+ {
+  "alpha2": "TG",
+  "alpha3": "TGO",
+  "numeric": "768",
+  "name": "Togo",
+  "capitals": [
+   "Lomé"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".tg",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "tg",
+  "iso_note": null
+ },
+ {
+  "alpha2": "TH",
+  "alpha3": "THA",
+  "numeric": "764",
+  "name": "Thailand",
+  "capitals": [
+   "Bangkok"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".th",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "th",
+  "iso_note": null
+ },
+ {
+  "alpha2": "TJ",
+  "alpha3": "TJK",
+  "numeric": "762",
+  "name": "Tajikistan",
+  "capitals": [
+   "Dushanbe"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".tj",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "tj",
+  "iso_note": null
+ },
+ {
+  "alpha2": "TK",
+  "alpha3": "TKL",
+  "numeric": "772",
+  "name": "Tokelau",
+  "capitals": [],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".tk",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "tk",
+  "iso_note": null
+ },
+ {
+  "alpha2": "TL",
+  "alpha3": "TLS",
+  "numeric": "626",
+  "name": "Timor-Leste",
+  "capitals": [
+   "Dili"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".tl",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "tl",
+  "iso_note": null
+ },
+ {
+  "alpha2": "TM",
+  "alpha3": "TKM",
+  "numeric": "795",
+  "name": "Turkmenistan",
+  "capitals": [
+   "Ashgabat"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".tm",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "tm",
+  "iso_note": null
+ },
+ {
+  "alpha2": "TN",
+  "alpha3": "TUN",
+  "numeric": "788",
+  "name": "Tunisia",
+  "capitals": [
+   "Tunis"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".tn",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "tn",
+  "iso_note": null
+ },
+ {
+  "alpha2": "TO",
+  "alpha3": "TON",
+  "numeric": "776",
+  "name": "Tonga",
+  "capitals": [
+   "Nukuʻalofa"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".to",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "to",
+  "iso_note": null
+ },
+ {
+  "alpha2": "TR",
+  "alpha3": "TUR",
+  "numeric": "792",
+  "name": "Turkey",
+  "capitals": [
+   "Ankara"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".tr",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "tr",
+  "iso_note": null
+ },
+ {
+  "alpha2": "TT",
+  "alpha3": "TTO",
+  "numeric": "780",
+  "name": "Trinidad and Tobago",
+  "capitals": [
+   "Port of Spain"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".tt",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "tt",
+  "iso_note": null
+ },
+ {
+  "alpha2": "TV",
+  "alpha3": "TUV",
+  "numeric": "798",
+  "name": "Tuvalu",
+  "capitals": [
+   "Funafuti"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".tv",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "tv",
+  "iso_note": null
+ },
+ {
+  "alpha2": "TW",
+  "alpha3": "TWN",
+  "numeric": "158",
+  "name": "Taiwan",
+  "capitals": [
+   "Taipei"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": true,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".tw",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "tw",
+  "iso_note": "Sovereignty and name disputed"
+ },
+ {
+  "alpha2": "TZ",
+  "alpha3": "TZA",
+  "numeric": "834",
+  "name": "Tanzania",
+  "capitals": [
+   "Dodoma"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".tz",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "tz",
+  "iso_note": null
+ },
+ {
+  "alpha2": "UA",
+  "alpha3": "UKR",
+  "numeric": "804",
+  "name": "Ukraine",
+  "capitals": [
+   "Kyiv"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ua",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ua",
+  "iso_note": null
+ },
+ {
+  "alpha2": "UG",
+  "alpha3": "UGA",
+  "numeric": "800",
+  "name": "Uganda",
+  "capitals": [
+   "Kampala"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ug",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ug",
+  "iso_note": null
+ },
+ {
+  "alpha2": "UM",
+  "alpha3": "UMI",
+  "numeric": "581",
+  "name": "United States Minor Outlying Islands",
+  "capitals": [],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".um",
+  "tld_in_use": false,
+  "tld_other": [],
+  "flag": "um",
+  "iso_note": null
+ },
+ {
+  "alpha2": "US",
+  "alpha3": "USA",
+  "numeric": "840",
+  "name": "United States",
+  "capitals": [
+   "Washington, D.C."
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".us",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "us",
+  "iso_note": null
+ },
+ {
+  "alpha2": "UY",
+  "alpha3": "URY",
+  "numeric": "858",
+  "name": "Uruguay",
+  "capitals": [
+   "Montevideo"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".uy",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "uy",
+  "iso_note": null
+ },
+ {
+  "alpha2": "UZ",
+  "alpha3": "UZB",
+  "numeric": "860",
+  "name": "Uzbekistan",
+  "capitals": [
+   "Tashkent"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".uz",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "uz",
+  "iso_note": null
+ },
+ {
+  "alpha2": "VA",
+  "alpha3": "VAT",
+  "numeric": "336",
+  "name": "Vatican City",
+  "capitals": [
+   "Vatican City"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "un_observer",
+  "tld": ".va",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "va",
+  "iso_note": null
+ },
+ {
+  "alpha2": "VC",
+  "alpha3": "VCT",
+  "numeric": "670",
+  "name": "Saint Vincent and the Grenadines",
+  "capitals": [
+   "Kingstown"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".vc",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "vc",
+  "iso_note": null
+ },
+ {
+  "alpha2": "VE",
+  "alpha3": "VEN",
+  "numeric": "862",
+  "name": "Venezuela",
+  "capitals": [
+   "Caracas"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ve",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ve",
+  "iso_note": null
+ },
+ {
+  "alpha2": "VG",
+  "alpha3": "VGB",
+  "numeric": "092",
+  "name": "British Virgin Islands",
+  "capitals": [
+   "Road Town"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".vg",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "vg",
+  "iso_note": null
+ },
+ {
+  "alpha2": "VI",
+  "alpha3": "VIR",
+  "numeric": "850",
+  "name": "United States Virgin Islands",
+  "capitals": [
+   "Charlotte Amalie"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".vi",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "vi",
+  "iso_note": null
+ },
+ {
+  "alpha2": "VN",
+  "alpha3": "VNM",
+  "numeric": "704",
+  "name": "Vietnam",
+  "capitals": [
+   "Hanoi"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".vn",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "vn",
+  "iso_note": null
+ },
+ {
+  "alpha2": "VU",
+  "alpha3": "VUT",
+  "numeric": "548",
+  "name": "Vanuatu",
+  "capitals": [
+   "Port Vila"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".vu",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "vu",
+  "iso_note": null
+ },
+ {
+  "alpha2": "WF",
+  "alpha3": "WLF",
+  "numeric": "876",
+  "name": "Wallis and Futuna",
+  "capitals": [
+   "Mata-Utu"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".wf",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "wf",
+  "iso_note": null
+ },
+ {
+  "alpha2": "WS",
+  "alpha3": "WSM",
+  "numeric": "882",
+  "name": "Samoa",
+  "capitals": [
+   "Apia"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ws",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ws",
+  "iso_note": null
+ },
+ {
+  "alpha2": "YE",
+  "alpha3": "YEM",
+  "numeric": "887",
+  "name": "Yemen",
+  "capitals": [
+   "Sanaa",
+   "Aden"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".ye",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "ye",
+  "iso_note": null
+ },
+ {
+  "alpha2": "YT",
+  "alpha3": "MYT",
+  "numeric": "175",
+  "name": "Mayotte",
+  "capitals": [
+   "Mamoudzou",
+   "Dzaoudzi"
+  ],
+  "iso_independent": false,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "territory",
+  "tld": ".yt",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "yt",
+  "iso_note": null
+ },
+ {
+  "alpha2": "ZA",
+  "alpha3": "ZAF",
+  "numeric": "710",
+  "name": "South Africa",
+  "capitals": [
+   "Pretoria",
+   "Cape Town",
+   "Bloemfontein"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".za",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "za",
+  "iso_note": null
+ },
+ {
+  "alpha2": "ZM",
+  "alpha3": "ZMB",
+  "numeric": "894",
+  "name": "Zambia",
+  "capitals": [
+   "Lusaka"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".zm",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "zm",
+  "iso_note": null
+ },
+ {
+  "alpha2": "ZW",
+  "alpha3": "ZWE",
+  "numeric": "716",
+  "name": "Zimbabwe",
+  "capitals": [
+   "Harare"
+  ],
+  "iso_independent": true,
+  "wikidata_un_flag": true,
+  "un_member": true,
+  "status": "un_member",
+  "tld": ".zw",
+  "tld_in_use": true,
+  "tld_other": [],
+  "flag": "zw",
+  "iso_note": null
+ },
+ {
+  "alpha2": "XK",
+  "alpha3": "XKS",
+  "numeric": "",
+  "name": "Kosovo",
+  "capitals": [
+   "Pristina"
+  ],
+  "iso_independent": null,
+  "wikidata_un_flag": false,
+  "un_member": false,
+  "status": "not_in_iso",
+  "tld": null,
+  "tld_in_use": false,
+  "tld_other": [],
+  "flag": "xk",
+  "iso_note": null
+ }
+]
