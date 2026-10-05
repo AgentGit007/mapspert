@@ -15,7 +15,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ad",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "AE",
@@ -35,7 +38,10 @@
    ".امارات"
   ],
   "flag": "ae",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "AF",
@@ -53,7 +59,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "af",
-  "iso_note": "Government not internationally recognised"
+  "iso_note": "Government not internationally recognised",
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "AG",
@@ -71,7 +80,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ag",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "AI",
@@ -89,7 +101,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ai",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "AL",
@@ -107,7 +122,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "al",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "AM",
@@ -127,7 +145,10 @@
    ".հայ"
   ],
   "flag": "am",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "AO",
@@ -145,7 +166,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ao",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "AQ",
@@ -161,7 +185,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "aq",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Antarctica",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "AR",
@@ -179,7 +206,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ar",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "South America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "AS",
@@ -197,7 +227,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "as",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "AT",
@@ -215,7 +248,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "at",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "AU",
@@ -233,7 +269,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "au",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "AW",
@@ -251,7 +290,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "aw",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "AX",
@@ -269,7 +311,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ax",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "AZ",
@@ -287,7 +332,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "az",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "BA",
@@ -305,7 +353,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ba",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "BB",
@@ -323,7 +374,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "bb",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "BD",
@@ -343,7 +397,10 @@
    ".বাংলা"
   ],
   "flag": "bd",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "BE",
@@ -361,7 +418,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "be",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "BF",
@@ -379,7 +439,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "bf",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "BG",
@@ -399,7 +462,10 @@
    ".бг"
   ],
   "flag": "bg",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "BH",
@@ -417,7 +483,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "bh",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "BI",
@@ -435,7 +504,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "bi",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "BJ",
@@ -453,7 +525,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "bj",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "BL",
@@ -471,7 +546,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "bl",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "BM",
@@ -489,7 +567,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "bm",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "BN",
@@ -507,7 +588,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "bn",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "BO",
@@ -526,7 +610,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "bo",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "South America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "BQ",
@@ -544,7 +631,10 @@
    ".nl"
   ],
   "flag": "bq",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "South America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "BR",
@@ -562,7 +652,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "br",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "South America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "BS",
@@ -580,7 +673,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "bs",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "BT",
@@ -598,7 +694,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "bt",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "BV",
@@ -614,7 +713,10 @@
   "tld_in_use": false,
   "tld_other": [],
   "flag": "bv",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Antarctica",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "BW",
@@ -632,7 +734,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "bw",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "BY",
@@ -652,7 +757,10 @@
    ".бел"
   ],
   "flag": "by",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "BZ",
@@ -670,7 +778,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "bz",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "CA",
@@ -688,7 +799,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ca",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "CC",
@@ -706,7 +820,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "cc",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "CD",
@@ -724,7 +841,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "cd",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "CF",
@@ -742,7 +862,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "cf",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "CG",
@@ -760,7 +883,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "cg",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "CH",
@@ -780,7 +906,10 @@
    ".swiss"
   ],
   "flag": "ch",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "CI",
@@ -798,7 +927,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ci",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "CK",
@@ -816,7 +948,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ck",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "CL",
@@ -834,7 +969,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "cl",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "South America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "CM",
@@ -852,7 +990,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "cm",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "CN",
@@ -874,7 +1015,10 @@
    ".中國"
   ],
   "flag": "cn",
-  "iso_note": "Sovereignty disputed with Taiwan"
+  "iso_note": "Sovereignty disputed with Taiwan",
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "CO",
@@ -892,7 +1036,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "co",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "South America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "CR",
@@ -910,7 +1057,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "cr",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "CU",
@@ -928,7 +1078,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "cu",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "CV",
@@ -946,7 +1099,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "cv",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "CW",
@@ -964,7 +1120,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "cw",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "CX",
@@ -982,7 +1141,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "cx",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "CY",
@@ -1000,7 +1162,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "cy",
-  "iso_note": "Sovereignty disputed with Northern Cyprus"
+  "iso_note": "Sovereignty disputed with Northern Cyprus",
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "CZ",
@@ -1018,7 +1183,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "cz",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "DE",
@@ -1036,7 +1204,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "de",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "DJ",
@@ -1054,7 +1225,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "dj",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "DK",
@@ -1072,7 +1246,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "dk",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "DM",
@@ -1090,7 +1267,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "dm",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "DO",
@@ -1108,7 +1288,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "do",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "DZ",
@@ -1126,7 +1309,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "dz",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "EC",
@@ -1144,7 +1330,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ec",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "South America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "EE",
@@ -1162,7 +1351,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ee",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "EG",
@@ -1182,7 +1374,10 @@
    ".مصر"
   ],
   "flag": "eg",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "EH",
@@ -1198,7 +1393,10 @@
   "tld_in_use": false,
   "tld_other": [],
   "flag": "eh",
-  "iso_note": "Sovereignty disputed with Morocco"
+  "iso_note": "Sovereignty disputed with Morocco",
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "ER",
@@ -1216,7 +1414,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "er",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "ES",
@@ -1234,7 +1435,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "es",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "ET",
@@ -1252,7 +1456,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "et",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "FI",
@@ -1270,7 +1477,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "fi",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "FJ",
@@ -1288,7 +1498,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "fj",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "FK",
@@ -1306,7 +1519,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "fk",
-  "iso_note": "Sovereignty and name disputed"
+  "iso_note": "Sovereignty and name disputed",
+  "continent": "South America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "FM",
@@ -1324,7 +1540,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "fm",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "FO",
@@ -1342,7 +1561,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "fo",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "FR",
@@ -1360,7 +1582,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "fr",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "GA",
@@ -1378,7 +1603,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ga",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "GB",
@@ -1396,7 +1624,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "gb",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "GD",
@@ -1414,7 +1645,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "gd",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "GE",
@@ -1432,7 +1666,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ge",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "GF",
@@ -1450,7 +1687,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "gf",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "South America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "GG",
@@ -1468,7 +1708,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "gg",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "GH",
@@ -1486,7 +1729,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "gh",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "GI",
@@ -1504,7 +1750,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "gi",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "GL",
@@ -1522,7 +1771,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "gl",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "GM",
@@ -1540,7 +1792,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "gm",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "GN",
@@ -1558,7 +1813,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "gn",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "GP",
@@ -1576,7 +1834,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "gp",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "GQ",
@@ -1594,7 +1855,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "gq",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "GR",
@@ -1614,7 +1878,10 @@
    ".ελ"
   ],
   "flag": "gr",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "GS",
@@ -1632,7 +1899,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "gs",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Antarctica",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "GT",
@@ -1650,7 +1920,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "gt",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "GU",
@@ -1668,7 +1941,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "gu",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "GW",
@@ -1686,7 +1962,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "gw",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "GY",
@@ -1704,7 +1983,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "gy",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "South America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "HK",
@@ -1720,7 +2002,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "hk",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "HM",
@@ -1736,7 +2021,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "hm",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Antarctica",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "HN",
@@ -1754,7 +2042,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "hn",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "HR",
@@ -1772,7 +2063,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "hr",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "HT",
@@ -1790,7 +2084,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ht",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "HU",
@@ -1808,7 +2105,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "hu",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "ID",
@@ -1826,7 +2126,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "id",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "IE",
@@ -1844,7 +2147,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ie",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "IL",
@@ -1864,7 +2170,10 @@
    "ישראל."
   ],
   "flag": "il",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "IM",
@@ -1882,7 +2191,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "im",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "IN",
@@ -1912,7 +2224,10 @@
    ".ভাৰত"
   ],
   "flag": "in",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "IO",
@@ -1930,7 +2245,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "io",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "IQ",
@@ -1948,7 +2266,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "iq",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "IR",
@@ -1968,7 +2289,10 @@
    "ایران."
   ],
   "flag": "ir",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "IS",
@@ -1986,7 +2310,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "is",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "IT",
@@ -2004,7 +2331,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "it",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "JE",
@@ -2022,7 +2352,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "je",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "JM",
@@ -2040,7 +2373,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "jm",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "JO",
@@ -2060,7 +2396,10 @@
    ".الاردن"
   ],
   "flag": "jo",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "JP",
@@ -2078,7 +2417,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "jp",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "KE",
@@ -2096,7 +2438,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ke",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "KG",
@@ -2114,7 +2459,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "kg",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "KH",
@@ -2132,7 +2480,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "kh",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "KI",
@@ -2150,7 +2501,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ki",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "KM",
@@ -2168,7 +2522,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "km",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "KN",
@@ -2186,7 +2543,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "kn",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "KP",
@@ -2204,7 +2564,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "kp",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "KR",
@@ -2224,7 +2587,10 @@
    ".한국"
   ],
   "flag": "kr",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "KW",
@@ -2242,7 +2608,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "kw",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "KY",
@@ -2260,7 +2629,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ky",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "KZ",
@@ -2280,7 +2652,10 @@
    ".қаз"
   ],
   "flag": "kz",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "LA",
@@ -2298,7 +2673,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "la",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "LB",
@@ -2316,7 +2694,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "lb",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "LC",
@@ -2334,7 +2715,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "lc",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "LI",
@@ -2352,7 +2736,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "li",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "LK",
@@ -2373,7 +2760,10 @@
    ".இலங்கை"
   ],
   "flag": "lk",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "LR",
@@ -2391,7 +2781,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "lr",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "LS",
@@ -2409,7 +2802,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ls",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "LT",
@@ -2427,7 +2823,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "lt",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "LU",
@@ -2445,7 +2844,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "lu",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "LV",
@@ -2463,7 +2865,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "lv",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "LY",
@@ -2481,7 +2886,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ly",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "MA",
@@ -2499,7 +2907,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ma",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "MC",
@@ -2517,7 +2928,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "mc",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "MD",
@@ -2535,7 +2949,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "md",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "ME",
@@ -2553,7 +2970,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "me",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "MF",
@@ -2571,7 +2991,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "mf",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "MG",
@@ -2589,7 +3012,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "mg",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "MH",
@@ -2607,7 +3033,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "mh",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "MK",
@@ -2625,7 +3054,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "mk",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "ML",
@@ -2643,7 +3075,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ml",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "MM",
@@ -2661,7 +3096,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "mm",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "MN",
@@ -2679,7 +3117,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "mn",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "MO",
@@ -2695,7 +3136,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "mo",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "MP",
@@ -2713,7 +3157,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "mp",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "MQ",
@@ -2731,7 +3178,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "mq",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "MR",
@@ -2749,7 +3199,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "mr",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "MS",
@@ -2768,7 +3221,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ms",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "MT",
@@ -2786,7 +3242,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "mt",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "MU",
@@ -2804,7 +3263,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "mu",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "MV",
@@ -2822,7 +3284,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "mv",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "MW",
@@ -2840,7 +3305,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "mw",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "MX",
@@ -2858,7 +3326,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "mx",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "MY",
@@ -2876,7 +3347,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "my",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "MZ",
@@ -2894,7 +3368,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "mz",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "NA",
@@ -2912,7 +3389,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "na",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "NC",
@@ -2930,7 +3410,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "nc",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "NE",
@@ -2948,7 +3431,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ne",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "NF",
@@ -2966,7 +3452,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "nf",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "NG",
@@ -2984,7 +3473,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ng",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "NI",
@@ -3002,7 +3494,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ni",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "NL",
@@ -3020,7 +3515,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "nl",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "NO",
@@ -3038,7 +3536,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "no",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "NP",
@@ -3056,7 +3557,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "np",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "NR",
@@ -3074,7 +3578,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "nr",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "NU",
@@ -3092,7 +3599,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "nu",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "NZ",
@@ -3110,7 +3620,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "nz",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "OM",
@@ -3128,7 +3641,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "om",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "PA",
@@ -3146,7 +3662,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "pa",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "PE",
@@ -3164,7 +3683,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "pe",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "South America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "PF",
@@ -3182,7 +3704,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "pf",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "PG",
@@ -3200,7 +3725,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "pg",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "PH",
@@ -3218,7 +3746,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ph",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "PK",
@@ -3236,7 +3767,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "pk",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "PL",
@@ -3254,7 +3788,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "pl",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "PM",
@@ -3274,7 +3811,10 @@
    ".fr"
   ],
   "flag": "pm",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "PN",
@@ -3292,7 +3832,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "pn",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "PR",
@@ -3310,7 +3853,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "pr",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "PS",
@@ -3329,7 +3875,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ps",
-  "iso_note": "Sovereignty disputed with Israel"
+  "iso_note": "Sovereignty disputed with Israel",
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "PT",
@@ -3347,7 +3896,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "pt",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "PW",
@@ -3365,7 +3917,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "pw",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "PY",
@@ -3383,7 +3938,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "py",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "South America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "QA",
@@ -3401,7 +3959,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "qa",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "RE",
@@ -3419,7 +3980,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "re",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "RO",
@@ -3437,7 +4001,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ro",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "RS",
@@ -3457,7 +4024,10 @@
    ".срб"
   ],
   "flag": "rs",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "RU",
@@ -3479,7 +4049,10 @@
    ".рус"
   ],
   "flag": "ru",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "RW",
@@ -3497,7 +4070,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "rw",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "SA",
@@ -3517,7 +4093,10 @@
    "AlSaudiah"
   ],
   "flag": "sa",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "SB",
@@ -3535,7 +4114,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "sb",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "SC",
@@ -3553,7 +4135,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "sc",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "SD",
@@ -3571,7 +4156,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "sd",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "SE",
@@ -3589,7 +4177,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "se",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "SG",
@@ -3607,7 +4198,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "sg",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "SH",
@@ -3625,7 +4219,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "sh",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "SI",
@@ -3643,7 +4240,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "si",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "SJ",
@@ -3659,7 +4259,10 @@
   "tld_in_use": false,
   "tld_other": [],
   "flag": "sj",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "SK",
@@ -3677,7 +4280,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "sk",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": true,
+  "map_available": true
  },
  {
   "alpha2": "SL",
@@ -3695,7 +4301,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "sl",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "SM",
@@ -3713,7 +4322,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "sm",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "SN",
@@ -3731,7 +4343,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "sn",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "SO",
@@ -3749,7 +4364,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "so",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "SR",
@@ -3767,7 +4385,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "sr",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "South America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "SS",
@@ -3785,7 +4406,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ss",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "ST",
@@ -3803,7 +4427,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "st",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "SV",
@@ -3821,7 +4448,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "sv",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "SX",
@@ -3839,7 +4469,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "sx",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "SY",
@@ -3857,7 +4490,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "sy",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "SZ",
@@ -3876,7 +4512,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "sz",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "TC",
@@ -3894,7 +4533,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "tc",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "TD",
@@ -3912,7 +4554,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "td",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "TF",
@@ -3930,7 +4575,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "tf",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Antarctica",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "TG",
@@ -3948,7 +4596,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "tg",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "TH",
@@ -3966,7 +4617,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "th",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "TJ",
@@ -3984,7 +4638,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "tj",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "TK",
@@ -4000,7 +4657,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "tk",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "TL",
@@ -4018,7 +4678,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "tl",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "TM",
@@ -4036,7 +4699,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "tm",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "TN",
@@ -4054,7 +4720,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "tn",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "TO",
@@ -4072,7 +4741,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "to",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "TR",
@@ -4090,7 +4762,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "tr",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "TT",
@@ -4108,7 +4783,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "tt",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "TV",
@@ -4126,7 +4804,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "tv",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "TW",
@@ -4144,7 +4825,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "tw",
-  "iso_note": "Sovereignty and name disputed"
+  "iso_note": "Sovereignty and name disputed",
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "TZ",
@@ -4162,7 +4846,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "tz",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "UA",
@@ -4180,7 +4867,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ua",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "UG",
@@ -4198,7 +4888,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ug",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "UM",
@@ -4214,7 +4907,10 @@
   "tld_in_use": false,
   "tld_other": [],
   "flag": "um",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": false
  },
  {
   "alpha2": "US",
@@ -4232,7 +4928,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "us",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "UY",
@@ -4250,7 +4949,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "uy",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "South America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "UZ",
@@ -4268,7 +4970,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "uz",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "VA",
@@ -4286,7 +4991,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "va",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "VC",
@@ -4304,7 +5012,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "vc",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "VE",
@@ -4322,7 +5033,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ve",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "South America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "VG",
@@ -4340,7 +5054,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "vg",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "VI",
@@ -4358,7 +5075,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "vi",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "North America",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "VN",
@@ -4376,7 +5096,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "vn",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "VU",
@@ -4394,7 +5117,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "vu",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "WF",
@@ -4412,7 +5138,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "wf",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "WS",
@@ -4430,7 +5159,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ws",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Oceania",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "YE",
@@ -4449,7 +5181,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "ye",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Asia",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "YT",
@@ -4468,7 +5203,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "yt",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "ZA",
@@ -4488,7 +5226,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "za",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "ZM",
@@ -4506,7 +5247,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "zm",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "ZW",
@@ -4524,7 +5268,10 @@
   "tld_in_use": true,
   "tld_other": [],
   "flag": "zw",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Africa",
+  "eu_member": false,
+  "map_available": true
  },
  {
   "alpha2": "XK",
@@ -4542,6 +5289,9 @@
   "tld_in_use": false,
   "tld_other": [],
   "flag": "xk",
-  "iso_note": null
+  "iso_note": null,
+  "continent": "Europe",
+  "eu_member": false,
+  "map_available": true
  }
 ]

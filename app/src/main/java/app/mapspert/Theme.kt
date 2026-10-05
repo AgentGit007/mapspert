@@ -13,6 +13,7 @@ import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import app.mapspert.quiz.Category
 
 // Space Grotesk, bundled (SIL OFL 1.1) -- never fetched from the network.
 val SpaceGrotesk = FontFamily(
@@ -73,8 +74,30 @@ private val AppShapes = Shapes(
     large = RoundedCornerShape(28.dp),
 )
 
+/** One colour per category, as requested. */
 @Composable
-fun MapspertTheme(dark: Boolean = isSystemInDarkTheme(), content: @Composable () -> Unit) {
+fun categoryColor(c: Category): Color = when (c) {
+    Category.FLAGS -> MaterialTheme.colorScheme.primaryContainer       // mint
+    Category.PLACES -> MaterialTheme.colorScheme.secondaryContainer    // lavender
+    Category.CODES -> MaterialTheme.colorScheme.tertiaryContainer      // peach
+    Category.OTHER -> MaterialTheme.colorScheme.surfaceVariant         // sky
+}
+
+@Composable
+fun onCategoryColor(c: Category): Color = when (c) {
+    Category.FLAGS -> MaterialTheme.colorScheme.onPrimaryContainer
+    Category.PLACES -> MaterialTheme.colorScheme.onSecondaryContainer
+    Category.CODES -> MaterialTheme.colorScheme.onTertiaryContainer
+    Category.OTHER -> MaterialTheme.colorScheme.onSurfaceVariant
+}
+
+@Composable
+fun MapspertTheme(mode: ThemeMode = ThemeMode.SYSTEM, content: @Composable () -> Unit) {
+    val dark = when (mode) {
+        ThemeMode.SYSTEM -> isSystemInDarkTheme()
+        ThemeMode.LIGHT -> false
+        ThemeMode.DARK -> true
+    }
     MaterialTheme(
         colorScheme = if (dark) DarkColors else LightColors,
         typography = Typography().withFont(SpaceGrotesk),
