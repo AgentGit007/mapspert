@@ -8,8 +8,9 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import app.mapspert.quiz.Answering
-import app.mapspert.quiz.Category
 import app.mapspert.quiz.Country
+import app.mapspert.quiz.CountryStat
+import app.mapspert.quiz.CountryStatsMath
 import app.mapspert.quiz.Difficulty
 import app.mapspert.quiz.MapData
 import app.mapspert.quiz.Question
@@ -19,30 +20,20 @@ import app.mapspert.quiz.Region
 import app.mapspert.quiz.RoundRecord
 import app.mapspert.quiz.Setup
 
-sealed interface Screen {
-    data object Home : Screen
-    data class CategoryHub(val category: Category) : Screen
-    data class ModeSetup(val mode: QuizMode) : Screen
-    data object Quiz : Screen
-    data object RoundSummary : Screen
-    data object SessionSummary : Screen
-    data object Stats : Screen
-    data object Settings : Screen
-    data object Browse : Screen
-    data class Detail(val alpha2: String) : Screen
-    data object About : Screen
-}
-
 class RoundState(val setup: Setup, val questions: List<Question>) {
     var index by mutableIntStateOf(0)
-    /** Index of the chosen option, or for map rounds the tapped country code. */
     var selected by mutableStateOf<Int?>(null)
+    /** The country tapped on the globe. */
     var tapped by mutableStateOf<String?>(null)
+    /** True when the player pressed "I don't know". */
+    var passed by mutableStateOf(false)
     var score by mutableIntStateOf(0)
     var millis by mutableIntStateOf(0)
     val missed = mutableStateListOf<Country>()
+    /** One entry per answered question, for the segmented progress bar. */
+    val outcomes = mutableStateListOf<Boolean>()
     val current: Question get() = questions[index]
-    val answered: Boolean get() = selected != null || tapped != null
+    val answered: Boolean get() = selected != null || tapped != null || passed
     val percent: Int get() = if (questions.isEmpty()) 0 else score * 100 / questions.size
 }
 
@@ -62,50 +53,75 @@ class AppViewModel(
     private val store: Store,
 ) : ViewModel() {
 
-    var screen by mutableStateOf<Screen>(Screen.Home)
-        private set
-    private val stack = ArrayList<Screen>()
+    private val nav = Navigator()
+    private val settings = SettingsState(store)
 
-    // settings, mirrored into state so the UI recomposes
-    var themeMode by mutableStateOf(store.themeMode)
-        private set
-    var difficulty by mutableStateOf(store.difficulty)
-        private set
-    var questionsPerRound by mutableIntStateOf(store.questionsPerRound)
-        private set
-    var rounds by mutableIntStateOf(store.rounds)
-        private set
-    var player by mutableStateOf(store.player)
-        private set
+    val screen: Screen get() = nav.screen
 
-    // per-run choices
+    val themeMode: ThemeMode get() = settings.theme
+    val difficulty: Difficulty get() = settings.difficulty
+    val questionsPerRound: Int get() = settings.questionsPerRound
+    val rounds: Int get() = settings.rounds
+    val player: String get() = settings.player
+    val practiceWeighting: Boolean get() = settings.practiceWeighting
+    val keepScreenOn: Boolean get() = settings.keepScreenOn
+
     var region by mutableStateOf(Region.WORLD)
     var search by mutableStateOf("")
     var session by mutableStateOf<Session?>(null)
         private set
     var records by mutableStateOf(store.records())
         private set
+    var countryStats by mutableStateOf(store.countryStats(store.player))
+        private set
+    /** Set when a round was interrupted and can be resumed. */
+    var resumable by mutableStateOf(store.savedRound())
+        private set
+
     private var questionStartedAt = 0L
 
     // ---- settings ----
 
-    fun setTheme(m: ThemeMode) { themeMode = m; store.themeMode = m }
-    fun chooseDifficulty(d: Difficulty) { difficulty = d; store.difficulty = d }
-    fun chooseQuestionsPerRound(n: Int) { questionsPerRound = n; store.questionsPerRound = n }
-    fun chooseRounds(n: Int) { rounds = n; store.rounds = n }
-    fun choosePlayer(name: String) { player = name.ifBlank { "Me" }; store.player = player }
+    fun chooseTheme(m: ThemeMode) = settings.chooseTheme(m)
+    fun chooseDifficulty(d: Difficulty) = settings.chooseDifficulty(d)
+    fun chooseQuestionsPerRound(n: Int) = settings.chooseQuestionsPerRound(n)
+    fun chooseRounds(n: Int) = settings.chooseRounds(n)
+    fun choosePracticeWeighting(on: Boolean) = settings.choosePracticeWeighting(on)
+    fun chooseKeepScreenOn(on: Boolean) = settings.chooseKeepScreenOn(on)
+
+    fun choosePlayer(name: String) {
+        settings.choosePlayer(name)
+        countryStats = store.countryStats(player)
+    }
+
     fun knownPlayers(): List<String> = store.knownPlayers()
-    fun clearRecords(onlyPlayer: String?) { store.clearRecords(onlyPlayer); records = store.records() }
+
+    fun clearRecords(onlyPlayer: String?) {
+        store.clearRecords(onlyPlayer)
+        records = store.records()
+        countryStats = store.countryStats(player)
+    }
+
+    fun statsFor(playerName: String): Map<String, CountryStat> = store.countryStats(playerName)
+
+    fun exportJson(): String = store.exportJson()
+
+    fun importJson(text: String, replace: Boolean): ImportResult {
+        val r = store.importJson(text, replace)
+        if (r.ok) {
+            records = store.records()
+            settings.reload()
+            countryStats = store.countryStats(player)
+        }
+        return r
+    }
 
     // ---- navigation ----
 
-    fun navigate(target: Screen) { stack.add(screen); screen = target }
-
-    fun back() { screen = if (stack.isNotEmpty()) stack.removeAt(stack.lastIndex) else Screen.Home }
-
-    private fun resetTo(target: Screen) { stack.clear(); stack.add(Screen.Home); screen = target }
-
-    fun home() { stack.clear(); screen = Screen.Home }
+    fun navigate(target: Screen) = nav.to(target)
+    fun back() = nav.back()
+    fun home() = nav.home()
+    private fun resetTo(target: Screen) = nav.resetTo(target)
 
     // ---- quiz ----
 
@@ -122,34 +138,88 @@ class AppViewModel(
 
     fun playable(mode: QuizMode): Boolean = QuizEngine.playable(setupFor(mode), countries)
 
+    private fun weight(): (Country) -> Double =
+        if (practiceWeighting) {
+            { c -> CountryStatsMath.weight(countryStats[c.alpha2]) }
+        } else {
+            { 1.0 }
+        }
+
     fun startSession(mode: QuizMode) {
         val setup = setupFor(mode)
         if (!QuizEngine.playable(setup, countries)) return
         val s = Session(setup, player)
-        s.round = RoundState(setup, QuizEngine.newRound(setup, countries))
+        s.round = RoundState(setup, QuizEngine.newRound(setup, countries, weight = weight()))
         session = s
+        resumable = null
+        questionStartedAt = System.currentTimeMillis()
+        persistRound()
+        resetTo(Screen.Quiz)
+    }
+
+    /** Picks up a round the system interrupted. Option tiles are reshuffled. */
+    fun resumeSaved() {
+        val saved = resumable ?: return
+        val setup = saved.setup() ?: run { discardSaved(); return }
+        val subjects = QuizEngine.subjectsFor(setup, countries, saved.subjects)
+        if (subjects.size != saved.subjects.size || subjects.isEmpty()) { discardSaved(); return }
+        val s = Session(setup, saved.player)
+        s.roundNumber = saved.roundNumber
+        s.finished.addAll(saved.finished)
+        val r = RoundState(setup, QuizEngine.rebuild(setup, countries, subjects))
+        r.index = saved.index.coerceIn(0, subjects.size - 1)
+        r.score = saved.score
+        r.millis = saved.millis.toInt()
+        val byCode = countries.associateBy { it.alpha2 }
+        saved.missed.mapNotNull { byCode[it] }.forEach { r.missed.add(it) }
+        r.outcomes.addAll(saved.outcomes)
+        s.round = r
+        session = s
+        resumable = null
         questionStartedAt = System.currentTimeMillis()
         resetTo(Screen.Quiz)
+    }
+
+    fun discardSaved() {
+        resumable = null
+        store.saveRound(null)
     }
 
     fun choose(option: Int) {
         val r = session?.round ?: return
         if (r.answered) return
         r.selected = option
-        r.millis += elapsed()
-        if (option == r.current.correctIndex) r.score++ else r.missed.add(r.current.subject)
+        finishQuestion(r, option == r.current.correctIndex)
     }
 
     fun tapCountry(alpha2: String) {
         val r = session?.round ?: return
         if (r.answered) return
         r.tapped = alpha2
-        r.millis += elapsed()
-        if (alpha2 == r.current.subject.alpha2) r.score++ else r.missed.add(r.current.subject)
+        finishQuestion(r, alpha2 == r.current.subject.alpha2)
     }
 
-    /** Codes the map may accept in the current round. */
-    fun mapCodes(): Set<String> {
+    /** "I don't know": counts as wrong, but is not a guess. */
+    fun pass() {
+        val r = session?.round ?: return
+        if (r.answered) return
+        r.passed = true
+        finishQuestion(r, false)
+    }
+
+    private fun finishQuestion(r: RoundState, correct: Boolean) {
+        val ms = elapsed()
+        r.millis += ms
+        r.outcomes.add(correct)
+        if (correct) r.score++ else r.missed.add(r.current.subject)
+        val p = session?.player ?: player
+        store.recordAnswer(p, r.current.subject.alpha2, correct, ms.toLong())
+        if (p == player) countryStats = store.countryStats(player)
+        persistRound()
+    }
+
+    /** Codes the globe may accept in the current round. */
+    fun globeCodes(): Set<String> {
         val setup = session?.setup ?: return emptySet()
         return QuizEngine.pool(countries, setup.region, setup.difficulty)
             .filter { it.mapAvailable }.map { it.alpha2 }.toSet()
@@ -162,6 +232,30 @@ class AppViewModel(
         return d.toInt()
     }
 
+    private fun persistRound() {
+        val s = session
+        val r = s?.round
+        if (s == null || r == null) { store.saveRound(null); return }
+        store.saveRound(
+            SavedRound(
+                player = s.player,
+                mode = s.setup.mode.name,
+                region = s.setup.region.name,
+                difficulty = s.setup.difficulty.name,
+                questionsPerRound = s.setup.questionsPerRound ?: 0,
+                rounds = s.setup.rounds,
+                roundNumber = s.roundNumber,
+                subjects = r.questions.map { it.subject.alpha2 },
+                index = r.index,
+                score = r.score,
+                millis = r.millis.toLong(),
+                missed = r.missed.map { it.alpha2 },
+                outcomes = r.outcomes.toList(),
+                finished = s.finished.toList(),
+            ),
+        )
+    }
+
     fun next() {
         val s = session ?: return
         val r = s.round ?: return
@@ -170,7 +264,9 @@ class AppViewModel(
             r.index++
             r.selected = null
             r.tapped = null
+            r.passed = false
             questionStartedAt = System.currentTimeMillis()
+            persistRound()
         } else {
             val record = RoundRecord(
                 player = s.player,
@@ -185,6 +281,7 @@ class AppViewModel(
             store.addRecord(record)
             records = store.records()
             s.finished.add(record)
+            store.saveRound(null)
             resetTo(Screen.RoundSummary)
         }
     }
@@ -193,8 +290,9 @@ class AppViewModel(
         val s = session ?: return
         if (s.roundNumber >= s.setup.rounds) { resetTo(Screen.SessionSummary); return }
         s.roundNumber++
-        s.round = RoundState(s.setup, QuizEngine.newRound(s.setup, countries))
+        s.round = RoundState(s.setup, QuizEngine.newRound(s.setup, countries, weight = weight()))
         questionStartedAt = System.currentTimeMillis()
+        persistRound()
         resetTo(Screen.Quiz)
     }
 
@@ -202,7 +300,11 @@ class AppViewModel(
 
     fun replaySession() { session?.let { startSession(it.setup.mode) } }
 
-    fun quitSession() { session = null; home() }
+    fun quitSession() {
+        session = null
+        store.saveRound(null)
+        home()
+    }
 
     fun country(alpha2: String): Country = countries.first { it.alpha2 == alpha2 }
 

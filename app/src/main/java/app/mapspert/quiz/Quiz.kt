@@ -20,8 +20,10 @@ data class Country(
     val isoNote: String?,
     val continent: String,
     val euMember: Boolean,
-    /** Has an outline in map.json, so it can be used in the map quiz. */
+    /** Has an outline in map.bin, so it can be used in the globe quiz. */
     val mapAvailable: Boolean,
+    /** Mapped area in square degrees; the outline quiz skips shapes too small to recognise. */
+    val mapArea: Float,
 ) {
     val capital: String? get() = capitals.firstOrNull()
     val acceptedTlds: List<String> get() = listOfNotNull(tld) + tldOther
@@ -66,11 +68,12 @@ enum class Difficulty(val label: String, val blurb: String, val options: Int) {
     }
 }
 
-enum class Category(val label: String, val blurb: String) {
-    FLAGS("Flags", "Recognise flags"),
-    PLACES("Countries & capitals", "Capitals and map locations"),
-    CODES("ISO codes", "Alpha-2 and alpha-3"),
-    OTHER("Other", "Internet domains"),
+enum class Category(val label: String, val blurb: String, val emoji: String) {
+    GLOBE("Globe", "Find countries on a spinning globe", "\uD83C\uDF0D"),       // earth
+    FLAGS("Flags", "Recognise flags", "\uD83C\uDFF3"),                          // flag
+    PLACES("Capitals", "Capital cities, both directions", "\uD83C\uDFDB"),      // classical building
+    CODES("ISO codes", "Alpha-2 and alpha-3", "\uD83D\uDD24"),                  // abc
+    OTHER("Domains", "Country top-level domains", "\uD83C\uDF10"),              // globe with meridians
 }
 
 /** OPTIONS questions are answered by picking a tile; MAP questions by tapping the map. */
@@ -82,10 +85,11 @@ enum class QuizMode(
     val blurb: String,
     val answering: Answering = Answering.OPTIONS,
 ) {
-    MAP_CLICK(Category.PLACES, "Find on the map", "Tap the named country", Answering.MAP),
+    PINPOINT(Category.GLOBE, "Pinpoint", "Spin the globe and tap the named country", Answering.MAP),
+    OUTLINE(Category.GLOBE, "Silhouette", "Name the country from its outline alone"),
     FLAG_TO_COUNTRY(Category.FLAGS, "Name the flag", "Which country has this flag?"),
     COUNTRY_TO_FLAG(Category.FLAGS, "Find the flag", "Pick the flag for a country"),
-    COUNTRY_TO_CAPITAL(Category.PLACES, "Capitals", "Which city is the capital?"),
+    COUNTRY_TO_CAPITAL(Category.PLACES, "Name the capital", "Which city is the capital?"),
     CAPITAL_TO_COUNTRY(Category.PLACES, "Capital to country", "Which country has this capital?"),
     ALPHA2(Category.CODES, "Alpha-2 codes", "Two-letter codes such as DE or JP"),
     ALPHA3(Category.CODES, "Alpha-3 codes", "Three-letter codes such as DEU or JPN"),
@@ -96,6 +100,8 @@ sealed interface Prompt {
     val caption: String
     data class Text(override val caption: String, val text: String) : Prompt
     data class Flag(override val caption: String, val flag: String) : Prompt
+    /** The country's silhouette, drawn from the map outlines. */
+    data class Outline(override val caption: String, val alpha2: String) : Prompt
 }
 
 /** Exactly one of [label] / [flag] is set. */
@@ -133,7 +139,8 @@ object QuizEngine {
         }
         // Kosovo's XK is only user-assigned, so it is not an ISO code question.
         QuizMode.ALPHA2, QuizMode.ALPHA3 -> pool.filter { it.status != "not_in_iso" }
-        QuizMode.MAP_CLICK -> pool.filter { it.mapAvailable }
+        QuizMode.PINPOINT -> pool.filter { it.mapAvailable }
+        QuizMode.OUTLINE -> pool.filter { it.mapAvailable && it.mapArea >= MIN_OUTLINE_AREA }
         QuizMode.TLD -> pool.filter { it.tld != null && it.tldInUse }
     }
 
@@ -143,10 +150,49 @@ object QuizEngine {
         return if (setup.mode.answering == Answering.MAP) n >= 1 else n >= setup.difficulty.options
     }
 
-    fun newRound(setup: Setup, all: List<Country>, rng: Random = Random.Default): List<Question> {
+    /** Square degrees below which a silhouette is not recognisable. */
+    const val MIN_OUTLINE_AREA = 0.5f
+
+    fun newRound(
+        setup: Setup,
+        all: List<Country>,
+        rng: Random = Random.Default,
+        /** Relative likelihood of each country being asked. 1.0 everywhere = plain shuffle. */
+        weight: (Country) -> Double = { 1.0 },
+    ): List<Question> {
         val pool = pool(all, setup.region, setup.difficulty)
-        val shuffled = eligible(setup.mode, pool).shuffled(rng)
-        val subjects = setup.questionsPerRound?.let { shuffled.take(it) } ?: shuffled
+        val eligible = eligible(setup.mode, pool)
+        val order = weightedOrder(eligible, rng, weight)
+        val subjects = setup.questionsPerRound?.let { order.take(it) } ?: order
+        return subjects.map { buildQuestion(setup.mode, it, pool, setup.difficulty.options, rng) }
+    }
+
+    /**
+     * Weighted sampling without replacement (Efraimidis-Spirakis): give each item the
+     * key rand^(1/w) and sort descending. A country with twice the weight is twice as
+     * likely to come first, and nothing is ever drawn twice.
+     */
+    fun weightedOrder(
+        items: List<Country>,
+        rng: Random,
+        weight: (Country) -> Double,
+    ): List<Country> = items
+        .map { c ->
+            val w = weight(c).coerceAtLeast(1e-6)
+            val u = rng.nextDouble().coerceAtLeast(1e-12)
+            c to Math.pow(u, 1.0 / w)
+        }
+        .sortedByDescending { it.second }
+        .map { it.first }
+
+    fun subjectsFor(setup: Setup, all: List<Country>, codes: List<String>): List<Country> {
+        val byCode = all.associateBy { it.alpha2 }
+        return codes.mapNotNull { byCode[it] }
+    }
+
+    /** Rebuilds questions for a restored round, keeping the same subjects. */
+    fun rebuild(setup: Setup, all: List<Country>, subjects: List<Country>, rng: Random = Random.Default): List<Question> {
+        val pool = pool(all, setup.region, setup.difficulty)
         return subjects.map { buildQuestion(setup.mode, it, pool, setup.difficulty.options, rng) }
     }
 
@@ -158,7 +204,10 @@ object QuizEngine {
         rng: Random,
     ): Question = when (mode) {
         // The map screen builds its own answer surface, so there are no option tiles.
-        QuizMode.MAP_CLICK -> Question(s, Prompt.Text("Find on the map", s.name), emptyList(), -1)
+        QuizMode.PINPOINT -> Question(s, Prompt.Text("Find on the globe", s.name), emptyList(), -1)
+        QuizMode.OUTLINE -> names(
+            Prompt.Outline("Which country is this?", s.alpha2), s, pool, optionCount, rng,
+        )
         QuizMode.FLAG_TO_COUNTRY -> names(
             Prompt.Flag("Which country has this flag?", s.flag), s, pool, optionCount, rng,
         )

@@ -1,87 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Mapspert launcher icon, foreground layer. Original work, GPL-3.0-or-later. -->
+<!-- Mapspert launcher icon, foreground layer ("Kosmos pastel"). Original work, GPL-3.0-or-later. -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
 
+    <!-- orbit, back half: drawn first so the globe covers it -->
+    <group android:rotation="-18" android:pivotX="54" android:pivotY="61">
+        <path
+            android:pathData="M26,61 A28,8 0 0,1 82,61"
+            android:strokeColor="#EC8A78"
+            android:strokeAlpha="0.55"
+            android:strokeWidth="1.8"
+            android:strokeLineCap="round" />
+    </group>
+
     <!-- ocean -->
     <path
-        android:pathData="M54,35 a25,25 0 1,0 0,50 a25,25 0 1,0 0,-50 Z"
-        android:fillColor="#3A3557"
-        android:strokeColor="#ECE8F5"
-        android:strokeWidth="2.2" />
+        android:pathData="M54,40 a21,21 0 1,0 0,42 a21,21 0 1,0 0,-42 Z"
+        android:fillColor="#2A3352" />
 
     <!-- graticule -->
     <path
-        android:pathData="M54,35 a10.5,25 0 1,0 0,50 a10.5,25 0 1,0 0,-50 Z"
-        android:strokeColor="#ECE8F5"
-        android:strokeWidth="1"
-        android:strokeAlpha="0.38" />
-    <path
-        android:pathData="M54,35 L54,85"
-        android:strokeColor="#ECE8F5"
-        android:strokeWidth="1"
-        android:strokeAlpha="0.38" />
-    <path
-        android:pathData="M31.1,50 L76.9,50"
-        android:strokeColor="#ECE8F5"
-        android:strokeWidth="1"
-        android:strokeAlpha="0.38" />
-    <path
-        android:pathData="M29,60 L79,60"
-        android:strokeColor="#ECE8F5"
-        android:strokeWidth="1"
-        android:strokeAlpha="0.38" />
-    <path
-        android:pathData="M31.1,70 L76.9,70"
-        android:strokeColor="#ECE8F5"
-        android:strokeWidth="1"
-        android:strokeAlpha="0.38" />
+        android:pathData="M54,40 a9,21 0 1,0 0,42 a9,21 0 1,0 0,-42 Z M54,40 L54,82 M35.8,50.5 L72.2,50.5 M33,61 L75,61 M35.8,71.5 L72.2,71.5"
+        android:strokeColor="#EEE5D3"
+        android:strokeAlpha="0.3"
+        android:strokeWidth="0.9" />
 
-    <!-- abstract landmasses -->
+    <!-- landmasses: kosmos blue with ink borders, one ochre "weakest" country -->
     <path
-        android:pathData="M40,45 L48,46 L50,53 L45,58 L47,64 L43,72 L38,66 L36,55 Z"
-        android:fillColor="#7FC4AE"
-        android:strokeColor="#ECE8F5"
-        android:strokeWidth="1.2"
+        android:pathData="M41,47 L49,48 L51,55 L46,59 L48,65 L44,72 L39,66 L37,56 Z"
+        android:fillColor="#8DB3DC"
+        android:strokeColor="#1D2230"
+        android:strokeWidth="1.3"
         android:strokeLineJoin="round" />
     <path
-        android:pathData="M57,46 L66,48 L68,55 L61,57 L55,52 Z"
-        android:fillColor="#E69F8B"
-        android:strokeColor="#ECE8F5"
-        android:strokeWidth="1.2"
+        android:pathData="M57,47 L66,49 L68,56 L61,58 L55,53 Z"
+        android:fillColor="#E8C26A"
+        android:strokeColor="#1D2230"
+        android:strokeWidth="1.3"
         android:strokeLineJoin="round" />
     <path
-        android:pathData="M59,62 L69,63 L71,70 L63,75 L58,69 Z"
-        android:fillColor="#86B6DE"
-        android:strokeColor="#ECE8F5"
-        android:strokeWidth="1.2"
+        android:pathData="M59,62 L68,63 L70,70 L62,75 L57,69 Z"
+        android:fillColor="#8DB3DC"
+        android:strokeColor="#1D2230"
+        android:strokeWidth="1.3"
         android:strokeLineJoin="round" />
+
+    <!-- rim -->
+    <path
+        android:pathData="M54,40 a21,21 0 1,0 0,42 a21,21 0 1,0 0,-42 Z"
+        android:strokeColor="#EEE5D3"
+        android:strokeWidth="2" />
+
+    <!-- orbit, front half, and the satellite -->
+    <group android:rotation="-18" android:pivotX="54" android:pivotY="61">
+        <path
+            android:pathData="M82,61 A28,8 0 0,1 26,61"
+            android:strokeColor="#EC8A78"
+            android:strokeWidth="2"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M81,60.3 a2.8,2.8 0 1,0 0,5.6 a2.8,2.8 0 1,0 0,-5.6 Z"
+            android:fillColor="#EEE5D3" />
+    </group>
 
     <!-- mortarboard -->
     <path
-        android:pathData="M54,25 L76,33 L54,41 L32,33 Z"
-        android:fillColor="#A08FD6"
-        android:strokeColor="#ECE8F5"
-        android:strokeWidth="2.2"
+        android:pathData="M54,27 L74,34.5 L54,42 L34,34.5 Z"
+        android:fillColor="#CDA8D8"
+        android:strokeColor="#EEE5D3"
+        android:strokeWidth="2"
         android:strokeLineJoin="round" />
 
-    <!-- tassel -->
+    <!-- tassel, on the left so it clears the orbit -->
     <path
-        android:pathData="M54,33 L75.5,35.5 L76.5,47"
-        android:strokeColor="#E69F8B"
-        android:strokeWidth="2.4"
+        android:pathData="M54,34.5 L35.5,36.5 L34.5,47"
+        android:strokeColor="#E8C26A"
+        android:strokeWidth="2.2"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:pathData="M74,48 L79,48 L77.5,56 L75.5,56 Z"
-        android:fillColor="#E69F8B"
-        android:strokeColor="#E69F8B"
-        android:strokeWidth="1.4"
+        android:pathData="M32,48 L37,48 L35.5,55 L33.5,55 Z"
+        android:fillColor="#E8C26A"
+        android:strokeColor="#E8C26A"
+        android:strokeWidth="1.2"
         android:strokeLineJoin="round" />
     <path
-        android:pathData="M54,30.4 a2.6,2.6 0 1,0 0,5.2 a2.6,2.6 0 1,0 0,-5.2 Z"
-        android:fillColor="#ECE8F5" />
+        android:pathData="M54,32.1 a2.4,2.4 0 1,0 0,4.8 a2.4,2.4 0 1,0 0,-4.8 Z"
+        android:fillColor="#EEE5D3" />
 </vector>

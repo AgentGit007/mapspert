@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="1024" height="1024">
+  <!-- night ground -->
+  <rect width="108" height="108" fill="#1D2230"/>
+  <!-- orbit, back half: passes behind the globe -->
+  <g transform="rotate(-18 54 61)">
+    <path d="M26,61 A28,8 0 0,1 82,61" fill="none" stroke="#EC8A78" stroke-width="1.8" stroke-opacity="0.55" stroke-linecap="round"/>
+  </g>
+  <!-- ocean -->
+  <circle cx="54" cy="61" r="21" fill="#2A3352"/>
+  <!-- graticule -->
+  <g stroke="#EEE5D3" stroke-width="0.9" stroke-opacity="0.3" fill="none">
+    <path d="M54,40 a9,21 0 1,0 0,42 a9,21 0 1,0 0,-42 Z"/>
+    <path d="M54,40 L54,82"/>
+    <path d="M35.8,50.5 L72.2,50.5"/>
+    <path d="M33,61 L75,61"/>
+    <path d="M35.8,71.5 L72.2,71.5"/>
+  </g>
+  <!-- landmasses: kosmos blue with ink borders, one ochre "weakest" country -->
+  <g stroke="#1D2230" stroke-width="1.3" stroke-linejoin="round">
+    <path d="M41,47 L49,48 L51,55 L46,59 L48,65 L44,72 L39,66 L37,56 Z" fill="#8DB3DC"/>
+    <path d="M57,47 L66,49 L68,56 L61,58 L55,53 Z" fill="#E8C26A"/>
+    <path d="M59,62 L68,63 L70,70 L62,75 L57,69 Z" fill="#8DB3DC"/>
+  </g>
+  <!-- rim -->
+  <circle cx="54" cy="61" r="21" fill="none" stroke="#EEE5D3" stroke-width="2"/>
+  <!-- orbit, front half, with the satellite -->
+  <g transform="rotate(-18 54 61)">
+    <path d="M82,61 A28,8 0 0,1 26,61" fill="none" stroke="#EC8A78" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="81.0" cy="63.1" r="2.8" fill="#EEE5D3"/>
+  </g>
+  <!-- mortarboard -->
+  <path d="M54,27 L74,34.5 L54,42 L34,34.5 Z" fill="#CDA8D8" stroke="#EEE5D3" stroke-width="2" stroke-linejoin="round"/>
+  <!-- tassel, on the left so it clears the orbit -->
+  <path d="M54,34.5 L35.5,36.5 L34.5,47" fill="none" stroke="#E8C26A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32,48 L37,48 L35.5,55 L33.5,55 Z" fill="#E8C26A" stroke="#E8C26A" stroke-width="1.2" stroke-linejoin="round"/>
+  <circle cx="54" cy="34.5" r="2.4" fill="#EEE5D3"/>
+</svg>

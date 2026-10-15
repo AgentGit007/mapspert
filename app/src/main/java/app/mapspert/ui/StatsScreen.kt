@@ -16,7 +16,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.material3.FilterChip
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -33,10 +32,18 @@ import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.lazy.items
+import app.mapspert.Screen
+import app.mapspert.quiz.CountryStat
+import app.mapspert.quiz.CountryStatsMath
+import androidx.compose.ui.res.stringResource
+import app.mapspert.R
 import app.mapspert.AppViewModel
 import app.mapspert.categoryColor
 import app.mapspert.quiz.Category
 import app.mapspert.quiz.QuizMode
+import app.mapspert.quiz.Region
 import app.mapspert.quiz.RoundRecord
 import app.mapspert.quiz.StatsMath
 import java.text.SimpleDateFormat
@@ -53,41 +60,71 @@ fun StatsScreen(vm: AppViewModel) {
     var player by remember(players) { mutableStateOf(if (vm.player in players) vm.player else players.first()) }
     var metric by remember { mutableStateOf(Metric.ACCURACY) }
     var categoryFilter by remember { mutableStateOf<Category?>(null) }
+    var regionFilter by remember { mutableStateOf<Region?>(null) }
 
-    val mine = remember(all, player, categoryFilter) {
-        StatsMath.trend(all.filter { it.player == player && (categoryFilter == null || it.category == categoryFilter) })
+    val mine = remember(all, player, categoryFilter, regionFilter) {
+        val cat = categoryFilter
+        val reg = regionFilter
+        StatsMath.trend(
+            all.filter {
+                it.player == player &&
+                    (cat == null || it.category == cat) &&
+                    (reg == null || it.region == reg.name)
+            },
+        )
+    }
+    // Only offer regions the player has actually played.
+    val playedRegions = remember(all, player) {
+        Region.values().filter { r -> all.any { it.player == player && it.region == r.name } }
     }
     val summary = remember(mine) { StatsMath.summarize(mine) }
 
     Column(Modifier.fillMaxSize().padding(horizontal = 20.dp)) {
-        TopBar("Statistics") { vm.back() }
+        ScreenHeader(stringResource(R.string.ui_statistics), onBack = { vm.back() })
         if (all.isEmpty()) {
             Spacer(Modifier.height(16.dp))
-            Text("No rounds recorded yet. Play one and your progress will appear here.", style = MaterialTheme.typography.bodyLarge)
+            Text(stringResource(R.string.ui_no_rounds_recorded_yet_play_one_and_your_progr), style = MaterialTheme.typography.bodyLarge)
             return@Column
         }
         LazyColumn(contentPadding = PaddingValues(vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
             if (players.size > 1) {
                 item {
-                    Text("Player", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
-                    Spacer(Modifier.height(6.dp))
+                    SectionLabel(stringResource(R.string.ui_player))
                     FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                         players.forEach { p ->
-                            FilterChip(selected = player == p, onClick = { player = p }, label = { Text(p) })
+                            Pill(selected = player == p, label = p, onClick = { player = p })
                         }
                     }
                 }
             }
             item {
-                FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    FilterChip(selected = categoryFilter == null, onClick = { categoryFilter = null }, label = { Text("All") })
+                SectionLabel(stringResource(R.string.ui_category))
+                FlowRow(
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    verticalArrangement = Arrangement.spacedBy(8.dp),
+                ) {
+                    Pill(selected = categoryFilter == null, label = stringResource(R.string.ui_all), onClick = { categoryFilter = null })
                     Category.values().forEach { c ->
-                        FilterChip(selected = categoryFilter == c, onClick = { categoryFilter = c }, label = { Text(c.label) })
+                        Pill(selected = categoryFilter == c, label = c.label, onClick = { categoryFilter = c })
+                    }
+                }
+            }
+            if (playedRegions.size > 1) {
+                item {
+                    SectionLabel(stringResource(R.string.ui_region))
+                    FlowRow(
+                        horizontalArrangement = Arrangement.spacedBy(8.dp),
+                        verticalArrangement = Arrangement.spacedBy(8.dp),
+                    ) {
+                        Pill(selected = regionFilter == null, label = stringResource(R.string.ui_all), onClick = { regionFilter = null })
+                        playedRegions.forEach { r ->
+                            Pill(selected = regionFilter == r, label = r.short, onClick = { regionFilter = r })
+                        }
                     }
                 }
             }
             item {
-                Tile(Modifier.fillMaxWidth()) {
+                Card(Modifier.fillMaxWidth()) {
                     Text("${summary.percent}%", style = MaterialTheme.typography.displaySmall, fontWeight = FontWeight.Bold)
                     Mono(
                         "${summary.rounds} rounds | ${summary.questions} questions | " +
@@ -99,31 +136,70 @@ fun StatsScreen(vm: AppViewModel) {
             item {
                 FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     Metric.values().forEach { m ->
-                        FilterChip(selected = metric == m, onClick = { metric = m }, label = { Text(m.label) })
+                        Pill(selected = metric == m, label = m.label, onClick = { metric = m })
                     }
                 }
             }
             item { TrendChart(mine, metric) }
-            item { Text("By category", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold) }
+            item {
+                Card(
+                    Modifier.fillMaxWidth(),
+                    color = MaterialTheme.colorScheme.secondaryContainer,
+                    onClick = { vm.navigate(Screen.KnowledgeGlobe) },
+                ) {
+                    val ink = MaterialTheme.colorScheme.onSecondaryContainer
+                    Text(stringResource(R.string.ui_knowledge_globe),
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold,
+                        color = ink,
+                    )
+                    Spacer(Modifier.height(2.dp))
+                    Text(stringResource(R.string.ui_every_country_coloured_by_how_well_you_know_it),
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = ink.copy(alpha = 0.85f),
+                    )
+                }
+            }
+            val own = vm.statsFor(player).values
+            val weakest = CountryStatsMath.weakest(own)
+            val strongest = CountryStatsMath.strongest(own)
+            if (strongest.isNotEmpty()) {
+                item { SectionLabel(stringResource(R.string.ui_strongest_countries)) }
+                items(strongest) { s2 -> CountryRankRow(vm, s2, MaterialTheme.colorScheme.primary) }
+            }
+            if (weakest.isNotEmpty()) {
+                item { SectionLabel(stringResource(R.string.ui_weakest_countries)) }
+                items(weakest) { s2 -> CountryRankRow(vm, s2, MaterialTheme.colorScheme.error) }
+            }
+            if (strongest.isEmpty() && weakest.isEmpty()) {
+                item {
+                    Card(Modifier.fillMaxWidth()) {
+                        Mono(stringResource(R.string.ui_answer_a_country_at_least_twice_and_it_will_be),
+                            alpha = 0.6f,
+                        )
+                    }
+                }
+            }
+            item { SectionLabel(stringResource(R.string.ui_by_category)) }
             item {
                 val byCat = StatsMath.byCategory(mine)
                 Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                     Category.values().forEach { c ->
                         val s = byCat[c] ?: return@forEach
-                        Tile(Modifier.fillMaxWidth(), color = categoryColor(c)) {
+                        Card(Modifier.fillMaxWidth(), color = categoryColor(c)) {
                             Text(c.label, style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
                             Mono("${s.percent}%  |  ${s.rounds} rounds  |  " + formatSeconds(s.secondsPerQuestion) + "/q", alpha = 0.85f)
                         }
                     }
                 }
             }
-            item { Text("By quiz", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold) }
+            item { SectionLabel(stringResource(R.string.ui_by_quiz)) }
             item {
                 val byMode = StatsMath.byMode(mine)
                 Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                     QuizMode.values().forEach { m ->
                         val s = byMode[m] ?: return@forEach
-                        Tile(Modifier.fillMaxWidth()) {
+                        Card(Modifier.fillMaxWidth()) {
                             Row(verticalAlignment = Alignment.CenterVertically) {
                                 Text(m.title, style = MaterialTheme.typography.titleSmall, modifier = Modifier.weight(1f))
                                 Mono("${s.percent}%  ${s.rounds}r")
@@ -148,7 +224,7 @@ private fun TrendChart(records: List<RoundRecord>, metric: Metric) {
     val minV = 0.0
     val fmt = remember { SimpleDateFormat("d MMM, HH:mm", Locale.getDefault()) }
 
-    Tile(Modifier.fillMaxWidth()) {
+    Card(Modifier.fillMaxWidth()) {
         Text(
             if (metric == Metric.ACCURACY) "Accuracy per round" else "Seconds per question",
             style = MaterialTheme.typography.titleSmall,
@@ -215,7 +291,7 @@ private fun TrendChart(records: List<RoundRecord>, metric: Metric) {
                 alpha = 0.85f,
             )
         } else {
-            Mono("tap a point for details  |  thick line = average of last 5", alpha = 0.6f)
+            Mono(stringResource(R.string.ui_tap_a_point_for_details_thick_line_average_of_), alpha = 0.6f)
         }
         Spacer(Modifier.height(4.dp))
         LegendRow(cs.primary, "per round", cs.secondary, "5-round average")
@@ -227,5 +303,29 @@ private fun LegendRow(c1: Color, l1: String, c2: Color, l2: String) {
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
         Mono("--- $l1", alpha = 0.75f, color = c1)
         Mono("--- $l2", alpha = 0.75f, color = c2)
+    }
+}
+
+/** One row of the strongest / weakest lists. */
+@Composable
+private fun CountryRankRow(vm: AppViewModel, stat: CountryStat, accent: Color) {
+    val c = runCatching { vm.country(stat.alpha2) }.getOrNull()
+    Card(Modifier.fillMaxWidth(), onClick = { c?.let { vm.navigate(Screen.Detail(it.alpha2)) } }) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            if (c != null) {
+                FlagImage(c.flag, Modifier.width(44.dp))
+                Spacer(Modifier.width(12.dp))
+            }
+            Column(Modifier.weight(1f)) {
+                Text(c?.name ?: stat.alpha2, style = MaterialTheme.typography.titleSmall)
+                Mono("${stat.seen} attempts  -  " + formatSeconds(stat.secondsPerQuestion) + "/q", alpha = 0.55f)
+            }
+            Text(
+                "${CountryStatsMath.percent(stat)}%",
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.Bold,
+                color = accent,
+            )
+        }
     }
 }

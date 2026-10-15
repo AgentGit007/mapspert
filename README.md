@@ -79,7 +79,7 @@ are not a political statement.
 | Names, capitals, codes, domains | [Wikidata](https://www.wikidata.org) | CC0 1.0 |
 | Country outlines | [Natural Earth](https://www.naturalearthdata.com) 10m map units | public domain |
 | Flags | [flag-icons](https://github.com/lipis/flag-icons) | MIT |
-| Font | [Space Grotesk](https://github.com/floriankarsten/space-grotesk) | SIL OFL 1.1 |
+| Fonts | [Unbounded](https://github.com/googlefonts/unbounded), [PT Mono](https://fonts.google.com/specimen/PT+Mono) (ParaType) | SIL OFL 1.1 |
 | Icon | this project | GPL-3.0-or-later |
 
 Map borders in disputed areas follow Natural Earth's own rendering.

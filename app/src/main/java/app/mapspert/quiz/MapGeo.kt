@@ -6,8 +6,10 @@ package app.mapspert.quiz
  */
 class MapShape(
     val alpha2: String,
-    /** Each ring is x0,y0,x1,y1,... in degrees. */
+    /** Accurate outlines, in degrees, used for hit-testing. Each ring is x0,y0,x1,y1,... */
     val rings: List<FloatArray>,
+    /** Coarse outlines for drawing a rotating globe at speed. */
+    val drawRings: List<FloatArray>,
     val minLon: Float,
     val minLat: Float,
     val maxLon: Float,
