@@ -424,7 +424,16 @@ fun CategoryHubScreen(vm: AppViewModel, category: Category) {
 @Composable
 fun ModeSetupScreen(vm: AppViewModel, mode: QuizMode) {
     val n = vm.poolSize(mode)
-    val perRound = if (vm.questionsPerRound == 0) n else minOf(vm.questionsPerRound, n)
+    // What the session will really run: no country twice, so a small pool is spread
+    // over the rounds rather than repeated.
+    val sizes = vm.roundSizes(mode)
+    val perRound = when {
+        sizes.isEmpty() -> "0"
+        sizes.min() == sizes.max() -> "${sizes.first()}"
+        else -> "${sizes.min()}–${sizes.max()}"
+    }
+    val requested = (if (vm.questionsPerRound == 0) n else vm.questionsPerRound) * vm.rounds
+    val split = sizes.sum() < requested
     val lengths = listOf(5, 10, 20, 0)
     val rounds = listOf(1, 3, 5)
     Column(Modifier.fillMaxSize().padding(horizontal = 20.dp)) {
@@ -472,12 +481,20 @@ fun ModeSetupScreen(vm: AppViewModel, mode: QuizMode) {
                 selectedIndex = rounds.indexOf(vm.rounds),
                 onSelect = { vm.chooseRounds(rounds[it]) },
             )
+            if (split) {
+                Spacer(Modifier.height(12.dp))
+                Mono(
+                    stringResource(R.string.ui_split_note, n),
+                    color = MaterialTheme.colorScheme.onBackground,
+                    alpha = 0.8f,
+                )
+            }
             Spacer(Modifier.height(16.dp))
-            Mono(stringResource(R.string.ui_saved_as_your_defaults), alpha = 0.45f)
+            Mono(stringResource(R.string.ui_saved_as_your_defaults), color = MaterialTheme.colorScheme.onBackground, alpha = 0.6f)
             Spacer(Modifier.height(24.dp))
         }
         PanelButton(
-            text = "Start  ·  ${vm.rounds} × $perRound",
+            text = "Start  ·  ${sizes.size} × $perRound",
             onClick = { vm.startSession(mode) },
             modifier = Modifier.fillMaxWidth(),
             enabled = vm.playable(mode),

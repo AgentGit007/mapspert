@@ -89,4 +89,5 @@
     <string name="ui_stamp_correct">Correct</string>
     <string name="ui_stamp_missed">Missed</string>
     <string name="ui_stamp_skipped">Skipped</string>
+    <string name="ui_split_note">Only %1$d countries here, and none is asked twice, so they are spread over the rounds.</string>
 </resources>

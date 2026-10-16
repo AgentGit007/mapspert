@@ -215,7 +215,7 @@ fun QuizHeader(vm: AppViewModel, session: Session, round: RoundState) {
                     fontWeight = FontWeight.Bold,
                 )
                 Mono(
-                    "round ${session.roundNumber}/${session.setup.rounds} · " +
+                    "round ${session.roundNumber}/${session.totalRounds} · " +
                         "task ${round.index + 1}/${round.questions.size} · ${round.score} right",
                     color = MaterialTheme.colorScheme.onBackground,
                     alpha = 0.72f,
@@ -331,7 +331,7 @@ fun RoundSummaryScreen(vm: AppViewModel, session: Session, round: RoundState) {
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
             item {
-                Mono("round ${session.roundNumber} of ${session.setup.rounds}", alpha = 0.55f)
+                Mono("round ${session.roundNumber} of ${session.totalRounds}", alpha = 0.55f)
                 RollingNumber(round.percent, suffix = "%")
                 Text(
                     "${round.score} of ${round.questions.size} correct",

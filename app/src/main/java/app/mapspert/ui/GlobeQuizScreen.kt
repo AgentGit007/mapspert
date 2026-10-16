@@ -61,8 +61,9 @@ fun GlobeQuizScreen(vm: AppViewModel, session: Session, round: RoundState) {
 
     val globeDescription = stringResource(R.string.a11y_globe, target.name)
     val poolLand = globePoolLand()
-    // The answer lights up ochre: it stands apart from the mint countries in play.
-    val targetColor = if (LocalIsDarkTheme.current) Kosmos.Ochre else cs.primary
+    // The answer lights up green, a wrong tap red. Green rather than mint so it stands
+    // apart from the countries in play.
+    val targetColor = if (LocalIsDarkTheme.current) Kosmos.Signal else cs.primary
     val density = LocalDensity.current
     val dotMinPx = with(density) { DOT_THRESHOLD_DP.dp.toPx() }
     val dotRadiusPx = with(density) { 6.dp.toPx() }

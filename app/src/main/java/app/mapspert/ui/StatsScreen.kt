@@ -39,6 +39,12 @@ import app.mapspert.quiz.CountryStat
 import app.mapspert.quiz.CountryStatsMath
 import androidx.compose.ui.res.stringResource
 import app.mapspert.R
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.ui.draw.clip
+import app.mapspert.butterColor
+import app.mapspert.quiz.Mastery
 import app.mapspert.AppViewModel
 import app.mapspert.categoryColor
 import app.mapspert.quiz.Category
@@ -141,6 +147,12 @@ fun StatsScreen(vm: AppViewModel) {
                 }
             }
             item { TrendChart(mine, metric) }
+            item {
+                val own = vm.statsFor(player).values
+                val counts = CountryStatsMath.summarize(own)
+                val knownTotal = vm.countries.count { it.status == "un_member" || it.status == "un_observer" }
+                MasteryOverview(counts, knownTotal)
+            }
             item {
                 Card(
                     Modifier.fillMaxWidth(),
@@ -327,5 +339,46 @@ private fun CountryRankRow(vm: AppViewModel, stat: CountryStat, accent: Color) {
                 color = accent,
             )
         }
+    }
+}
+
+/** How much of the world the player has actually nailed down. */
+@Composable
+private fun MasteryOverview(counts: Map<Mastery, Int>, poolSize: Int) {
+    val cs = MaterialTheme.colorScheme
+    val solid = counts[Mastery.SOLID] ?: 0
+    val learning = counts[Mastery.LEARNING] ?: 0
+    val shaky = counts[Mastery.SHAKY] ?: 0
+    val seen = solid + learning + shaky
+    val colorFor = listOf(cs.primary to solid, butterColor() to learning, cs.error to shaky)
+    Card(Modifier.fillMaxWidth()) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Column(Modifier.weight(1f)) {
+                Text(
+                    "$solid solid",
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.Bold,
+                )
+                Mono("$seen of $poolSize countries attempted", alpha = 0.6f)
+            }
+        }
+        Spacer(Modifier.height(10.dp))
+        // A stacked bar: proportions at a glance, numbers underneath.
+        val rest = (poolSize - seen).coerceAtLeast(0)
+        val total = (seen + rest).coerceAtLeast(1)
+        Row(Modifier.fillMaxWidth().height(10.dp).clip(CircleShape)) {
+            colorFor.forEach { (c, n) ->
+                if (n > 0) Box(Modifier.weight(n.toFloat() / total).fillMaxHeight().background(c))
+            }
+            if (rest > 0) {
+                Box(
+                    Modifier.weight(rest.toFloat() / total)
+                        .fillMaxHeight()
+                        .background(cs.onSurface.copy(alpha = 0.12f)),
+                )
+            }
+        }
+        Spacer(Modifier.height(8.dp))
+        Mono("solid $solid  -  learning $learning  -  shaky $shaky", alpha = 0.65f)
     }
 }

@@ -38,6 +38,12 @@ class RoundState(val setup: Setup, val questions: List<Question>) {
 }
 
 class Session(val setup: Setup, val player: String) {
+    /**
+     * Subjects of every round, drawn once when the session starts so no country is asked
+     * twice in it. Can hold fewer rounds than [Setup.rounds] when the pool is small.
+     */
+    var plan: List<List<Country>> = emptyList()
+    val totalRounds: Int get() = if (plan.isEmpty()) setup.rounds else plan.size
     var roundNumber by mutableIntStateOf(1)
     var round by mutableStateOf<RoundState?>(null)
     val finished = mutableStateListOf<RoundRecord>()
@@ -148,8 +154,11 @@ class AppViewModel(
     fun startSession(mode: QuizMode) {
         val setup = setupFor(mode)
         if (!QuizEngine.playable(setup, countries)) return
+        val plan = QuizEngine.planSession(setup, countries, weight = weight())
+        if (plan.isEmpty()) return
         val s = Session(setup, player)
-        s.round = RoundState(setup, QuizEngine.newRound(setup, countries, weight = weight()))
+        s.plan = plan
+        s.round = RoundState(setup, QuizEngine.rebuild(setup, countries, plan[0]))
         session = s
         resumable = null
         questionStartedAt = System.currentTimeMillis()
@@ -165,6 +174,21 @@ class AppViewModel(
         if (subjects.size != saved.subjects.size || subjects.isEmpty()) { discardSaved(); return }
         val s = Session(setup, saved.player)
         s.roundNumber = saved.roundNumber
+        val restoredPlan = saved.plan.map { codes -> QuizEngine.subjectsFor(setup, countries, codes) }
+        s.plan = if (restoredPlan.size >= saved.roundNumber) {
+            restoredPlan
+        } else {
+            // Saved by an older version, which kept no plan: rebuild the remaining rounds
+            // around the current one so at least those do not repeat it.
+            val remaining = setup.rounds - saved.roundNumber
+            val later = if (remaining > 0) {
+                QuizEngine.planSession(
+                    setup.copy(rounds = remaining), countries, weight = weight(),
+                    exclude = saved.subjects.toSet(),
+                )
+            } else emptyList()
+            List(saved.roundNumber - 1) { emptyList<Country>() } + listOf(subjects) + later
+        }
         s.finished.addAll(saved.finished)
         val r = RoundState(setup, QuizEngine.rebuild(setup, countries, subjects))
         r.index = saved.index.coerceIn(0, subjects.size - 1)
@@ -244,6 +268,7 @@ class AppViewModel(
                 difficulty = s.setup.difficulty.name,
                 questionsPerRound = s.setup.questionsPerRound ?: 0,
                 rounds = s.setup.rounds,
+                plan = s.plan.map { round -> round.map { it.alpha2 } },
                 roundNumber = s.roundNumber,
                 subjects = r.questions.map { it.subject.alpha2 },
                 index = r.index,
@@ -288,15 +313,21 @@ class AppViewModel(
 
     fun nextRound() {
         val s = session ?: return
-        if (s.roundNumber >= s.setup.rounds) { resetTo(Screen.SessionSummary); return }
+        if (s.roundNumber >= s.totalRounds) { resetTo(Screen.SessionSummary); return }
         s.roundNumber++
-        s.round = RoundState(s.setup, QuizEngine.newRound(s.setup, countries, weight = weight()))
+        val subjects = s.plan.getOrNull(s.roundNumber - 1)
+        if (subjects.isNullOrEmpty()) { resetTo(Screen.SessionSummary); return }
+        s.round = RoundState(s.setup, QuizEngine.rebuild(s.setup, countries, subjects))
         questionStartedAt = System.currentTimeMillis()
         persistRound()
         resetTo(Screen.Quiz)
     }
 
-    fun isLastRound(): Boolean = (session?.let { it.roundNumber >= it.setup.rounds }) ?: true
+    fun isLastRound(): Boolean = (session?.let { it.roundNumber >= it.totalRounds }) ?: true
+
+    /** Questions per round as the session will actually run them, for the Start button. */
+    fun roundSizes(mode: QuizMode): List<Int> =
+        QuizEngine.roundSizes(poolSize(mode), questionsPerRound.takeIf { it > 0 }, rounds)
 
     fun replaySession() { session?.let { startSession(it.setup.mode) } }
 

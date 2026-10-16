@@ -168,6 +168,44 @@ object QuizEngine {
     }
 
     /**
+     * Questions per round for a whole session, so that no country is asked twice in it.
+     * When the pool cannot cover rounds x questions, the pool is spread over the rounds
+     * instead (fewer per round, or fewer rounds if there are more rounds than countries).
+     */
+    fun roundSizes(poolSize: Int, perRound: Int?, rounds: Int): List<Int> {
+        if (poolSize <= 0) return emptyList()
+        val want = (perRound ?: poolSize).coerceAtLeast(1)
+        val r = rounds.coerceAtLeast(1)
+        if (want.toLong() * r <= poolSize) return List(r) { want }
+        val n = minOf(r, poolSize)
+        val base = poolSize / n
+        val extra = poolSize % n
+        return List(n) { base + if (it < extra) 1 else 0 }
+    }
+
+    /**
+     * The subjects of every round in a session, drawn once up front so nothing repeats
+     * across rounds. [weight] (practice weighting) only decides WHICH countries are
+     * picked; the order is then shuffled uniformly, so weak countries are not front-loaded.
+     */
+    fun planSession(
+        setup: Setup,
+        all: List<Country>,
+        rng: Random = Random.Default,
+        weight: (Country) -> Double = { 1.0 },
+        exclude: Set<String> = emptySet(),
+    ): List<List<Country>> {
+        val pool = pool(all, setup.region, setup.difficulty)
+        val eligible = eligible(setup.mode, pool)
+            .distinctBy { it.alpha2 }
+            .filter { it.alpha2 !in exclude }
+        val sizes = roundSizes(eligible.size, setup.questionsPerRound, setup.rounds)
+        val chosen = weightedOrder(eligible, rng, weight).take(sizes.sum()).shuffled(rng)
+        var start = 0
+        return sizes.map { n -> chosen.subList(start, start + n).also { start += n } }
+    }
+
+    /**
      * Weighted sampling without replacement (Efraimidis-Spirakis): give each item the
      * key rand^(1/w) and sort descending. A country with twice the weight is twice as
      * likely to come first, and nothing is ever drawn twice.

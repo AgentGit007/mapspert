@@ -93,6 +93,24 @@ class GlobeCamera(
         return lon to lat
     }
 
+    /**
+     * The camera-space unit vector for a lon/lat: x right, y up, z toward the viewer.
+     * The terminator needs this rather than screen coordinates.
+     */
+    fun toCameraSpace(lon: Float, lat: Float, out: FloatArray) {
+        val la = Math.toRadians(lat.toDouble())
+        val lo = Math.toRadians(lon.toDouble())
+        val cosLa = cos(la).toFloat()
+        val x = cosLa * sin(lo).toFloat()
+        val y = sin(la).toFloat()
+        val z = cosLa * cos(lo).toFloat()
+        val x2 = x * cosYaw - z * sinYaw
+        val z2 = x * sinYaw + z * cosYaw
+        out[0] = x2
+        out[1] = y * cosPitch - z2 * sinPitch
+        out[2] = y * sinPitch + z2 * cosPitch
+    }
+
     /** Degrees of arc per pixel at the centre of the disc. */
     fun degreesPerPixel(): Float = (180.0 / Math.PI / radiusPx).toFloat()
 

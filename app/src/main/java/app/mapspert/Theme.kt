@@ -59,6 +59,9 @@ object Kosmos {
     val MintLip = Color(0xFF5E9C86)
     val CoralLip = Color(0xFFA45648)
 
+    /** "Right answer" on the globe: a signal green that stands apart from mint land. */
+    val Signal = Color(0xFF2FA36F)
+
     /** Rubber-stamp inks, dark enough to pass contrast on paper. */
     val StampGreen = Color(0xFF256B57)
     val StampRed = Color(0xFFA8435A)

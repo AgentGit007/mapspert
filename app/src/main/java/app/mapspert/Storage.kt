@@ -71,6 +71,8 @@ data class SavedRound(
     val missed: List<String>,
     val outcomes: List<Boolean>,
     val finished: List<RoundRecord>,
+    /** Subjects of every round in the session; empty in saves from older versions. */
+    val plan: List<List<String>> = emptyList(),
 ) {
     fun setup(): Setup? {
         val m = QuizMode.values().firstOrNull { it.name == mode } ?: return null
@@ -226,6 +228,7 @@ class Store(context: Context) {
             .put("missed", JSONArray(r.missed))
             .put("outcomes", JSONArray(r.outcomes.map { if (it) 1 else 0 }))
             .put("finished", recordsJson(r.finished))
+            .put("plan", JSONArray(r.plan.map { JSONArray(it) }))
         prefs.edit().putString("inflight", o.toString()).apply()
     }
 
@@ -252,6 +255,12 @@ class Store(context: Context) {
                 missed = strings("missed"),
                 outcomes = o.optJSONArray("outcomes")?.let { a -> List(a.length()) { a.getInt(it) == 1 } } ?: emptyList(),
                 finished = parseRecords(o.optJSONArray("finished")?.toString()),
+                plan = o.optJSONArray("plan")?.let { a ->
+                    List(a.length()) { i ->
+                        val r = a.getJSONArray(i)
+                        List(r.length()) { r.getString(it) }
+                    }
+                } ?: emptyList(),
             )
         }.getOrNull()
     }

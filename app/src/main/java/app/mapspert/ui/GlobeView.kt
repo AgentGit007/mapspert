@@ -370,7 +370,19 @@ private fun DrawScope.drawGlobe(
         cam.project(s.centerLon, s.centerLat, p)
         val c = Offset(p[0], p[1])
         val fill = fillFor(s) ?: if (inPool) colors.land else colors.muted
-        drawCircle(colors.line.copy(alpha = if (inPool) 0.85f else 0.25f), radius = dotRadiusPx + 1.5f, center = c)
+        if (colors.border.isSpecified) {
+            // A bullseye that reads on any background: paper halo, thick ink ring, fill.
+            // A thin ring vanished when the dot sat on a same-coloured neighbour
+            // (Luxembourg inside mint Germany, France and Belgium).
+            if (inPool) drawCircle(colors.line.copy(alpha = 0.9f), radius = dotRadiusPx + 4.dp.toPx(), center = c)
+            drawCircle(
+                colors.border.copy(alpha = if (inPool) 1f else 0.6f),
+                radius = dotRadiusPx + 2.5.dp.toPx(),
+                center = c,
+            )
+        } else {
+            drawCircle(colors.line.copy(alpha = if (inPool) 0.85f else 0.25f), radius = dotRadiusPx + 1.5f, center = c)
+        }
         drawCircle(fill, radius = dotRadiusPx, center = c)
     }
 
