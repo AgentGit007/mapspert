@@ -22,6 +22,7 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -49,7 +50,18 @@ fun GlobeQuizScreen(vm: AppViewModel, session: Session, round: RoundState) {
     val codes = remember(session) { vm.globeCodes() }
     val shapes = vm.map.shapes
     val start = remember(codes) { GlobeMath.frame(shapes, codes) }
-    val state = rememberGlobeState(start[0], start[1], start[2], key = codes)
+    // Rounds pick up where the last one left the globe: same zoom, same view.
+    // "Reset view" still goes back to the framing of the whole pool.
+    val carried = session.camera
+    val state = rememberGlobeState(
+        carried?.get(0) ?: start[0],
+        carried?.get(1) ?: start[1],
+        carried?.get(2) ?: start[2],
+        key = codes,
+    )
+    DisposableEffect(state, session) {
+        onDispose { session.camera = floatArrayOf(state.centreLon, state.centreLat, state.zoom) }
+    }
     var showDetails by remember(round.index) { mutableStateOf(false) }
     var tapLon by remember(round.index) { mutableStateOf(0f) }
     var tapLat by remember(round.index) { mutableStateOf(0f) }

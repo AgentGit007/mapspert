@@ -44,6 +44,8 @@ class Session(val setup: Setup, val player: String) {
      */
     var plan: List<List<Country>> = emptyList()
     val totalRounds: Int get() = if (plan.isEmpty()) setup.rounds else plan.size
+    /** Globe camera (lon, lat, zoom) carried from one round to the next. */
+    var camera: FloatArray? = null
     var roundNumber by mutableIntStateOf(1)
     var round by mutableStateOf<RoundState?>(null)
     val finished = mutableStateListOf<RoundRecord>()

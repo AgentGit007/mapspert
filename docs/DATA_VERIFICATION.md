@@ -35,6 +35,16 @@ names, and the UN Statistics Division's M49 for continents. Both are authoritati
 free to consult. Neither is machine-readable without agreeing to terms, which is why the
 build still uses Wikipedia and Wikidata.
 
+## Map: editorial calls
+
+- **Unlabelled map units assigned to their ISO country:** Somaliland (SO), Northern
+  Cyprus and the UN buffer zone (CY), the Korean DMZ (KR/KP), Guantanamo Bay (CU). This
+  follows the app's rule of repeating ISO 3166-1, as with the country list.
+- **Left as no country:** Siachen, Bir Tawil, the Southern Patagonian Ice Field, the
+  disputed reefs and islands, and the UK Sovereign Base Areas on Cyprus. Assigning the
+  bases to GB would make two dots of the UK appear on Cyprus; assigning them to CY would
+  misstate their status.
+
 ## How you can help
 
 The fastest wins, in order:

@@ -109,7 +109,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.005
+  "map_area": 0.006
  },
  {
   "alpha2": "AL",
@@ -197,7 +197,7 @@
   "continent": "Antarctica",
   "eu_member": false,
   "map_available": true,
-  "map_area": 5984.937
+  "map_area": 5984.948
  },
  {
   "alpha2": "AR",
@@ -241,7 +241,7 @@
   "continent": "Oceania",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.014
+  "map_area": 0.012
  },
  {
   "alpha2": "AT",
@@ -285,7 +285,7 @@
   "continent": "Oceania",
   "eu_member": false,
   "map_available": true,
-  "map_area": 686.514
+  "map_area": 686.525
  },
  {
   "alpha2": "AW",
@@ -307,7 +307,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.013
+  "map_area": 0.014
  },
  {
   "alpha2": "AX",
@@ -373,7 +373,7 @@
   "continent": "Europe",
   "eu_member": false,
   "map_available": true,
-  "map_area": 5.761
+  "map_area": 5.85
  },
  {
   "alpha2": "BB",
@@ -395,7 +395,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.035
+  "map_area": 0.033
  },
  {
   "alpha2": "BD",
@@ -441,7 +441,7 @@
   "continent": "Europe",
   "eu_member": true,
   "map_available": true,
-  "map_area": 3.887
+  "map_area": 3.903
  },
  {
   "alpha2": "BF",
@@ -509,7 +509,7 @@
   "continent": "Asia",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.061
+  "map_area": 0.062
  },
  {
   "alpha2": "BI",
@@ -575,7 +575,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.002
+  "map_area": 0.001
  },
  {
   "alpha2": "BM",
@@ -664,7 +664,7 @@
   "continent": "South America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.024
+  "map_area": 0.023
  },
  {
   "alpha2": "BR",
@@ -708,7 +708,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 1.034
+  "map_area": 1.03
  },
  {
   "alpha2": "BT",
@@ -840,7 +840,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 1503.016
+  "map_area": 1526.801
  },
  {
   "alpha2": "CC",
@@ -1018,7 +1018,7 @@
   "continent": "South America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 68.989
+  "map_area": 68.983
  },
  {
   "alpha2": "CM",
@@ -1066,7 +1066,7 @@
   "continent": "Asia",
   "eu_member": false,
   "map_available": true,
-  "map_area": 947.725
+  "map_area": 947.726
  },
  {
   "alpha2": "CO",
@@ -1132,7 +1132,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 9.406
+  "map_area": 9.413
  },
  {
   "alpha2": "CV",
@@ -1154,7 +1154,7 @@
   "continent": "Africa",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.318
+  "map_area": 0.316
  },
  {
   "alpha2": "CW",
@@ -1176,7 +1176,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.039
+  "map_area": 0.04
  },
  {
   "alpha2": "CX",
@@ -1220,7 +1220,7 @@
   "continent": "Europe",
   "eu_member": true,
   "map_available": true,
-  "map_area": 0.536
+  "map_area": 0.903
  },
  {
   "alpha2": "CZ",
@@ -1286,7 +1286,7 @@
   "continent": "Africa",
   "eu_member": false,
   "map_available": true,
-  "map_area": 1.817
+  "map_area": 1.819
  },
  {
   "alpha2": "DK",
@@ -1308,7 +1308,7 @@
   "continent": "Europe",
   "eu_member": true,
   "map_available": true,
-  "map_area": 5.913
+  "map_area": 5.908
  },
  {
   "alpha2": "DM",
@@ -1374,7 +1374,7 @@
   "continent": "Africa",
   "eu_member": false,
   "map_available": true,
-  "map_area": 212.743
+  "map_area": 212.749
  },
  {
   "alpha2": "EC",
@@ -1418,7 +1418,7 @@
   "continent": "Europe",
   "eu_member": true,
   "map_available": true,
-  "map_area": 7.045
+  "map_area": 7.043
  },
  {
   "alpha2": "EG",
@@ -1528,7 +1528,7 @@
   "continent": "Africa",
   "eu_member": false,
   "map_available": true,
-  "map_area": 92.665
+  "map_area": 92.666
  },
  {
   "alpha2": "FI",
@@ -1572,7 +1572,7 @@
   "continent": "Oceania",
   "eu_member": false,
   "map_available": true,
-  "map_area": 1.491
+  "map_area": 1.489
  },
  {
   "alpha2": "FK",
@@ -1594,7 +1594,7 @@
   "continent": "South America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 1.423
+  "map_area": 1.425
  },
  {
   "alpha2": "FM",
@@ -1616,7 +1616,7 @@
   "continent": "Oceania",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.042
+  "map_area": 0.044
  },
  {
   "alpha2": "FO",
@@ -1638,7 +1638,7 @@
   "continent": "Europe",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.211
+  "map_area": 0.212
  },
  {
   "alpha2": "FR",
@@ -1660,7 +1660,7 @@
   "continent": "Europe",
   "eu_member": true,
   "map_available": true,
-  "map_area": 63.318
+  "map_area": 63.32
  },
  {
   "alpha2": "GA",
@@ -1704,7 +1704,7 @@
   "continent": "Europe",
   "eu_member": false,
   "map_available": true,
-  "map_area": 31.881
+  "map_area": 31.891
  },
  {
   "alpha2": "GD",
@@ -1748,7 +1748,7 @@
   "continent": "Asia",
   "eu_member": false,
   "map_available": true,
-  "map_area": 7.56
+  "map_area": 7.566
  },
  {
   "alpha2": "GF",
@@ -1858,7 +1858,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 647.641
+  "map_area": 647.66
  },
  {
   "alpha2": "GM",
@@ -1924,7 +1924,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.132
+  "map_area": 0.131
  },
  {
   "alpha2": "GQ",
@@ -1992,7 +1992,7 @@
   "continent": "Antarctica",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.519
+  "map_area": 0.518
  },
  {
   "alpha2": "GT",
@@ -2036,7 +2036,7 @@
   "continent": "Oceania",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.047
+  "map_area": 0.048
  },
  {
   "alpha2": "GW",
@@ -2100,7 +2100,7 @@
   "continent": "Asia",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.086
+  "map_area": 0.085
  },
  {
   "alpha2": "HM",
@@ -2164,7 +2164,7 @@
   "continent": "Europe",
   "eu_member": true,
   "map_available": true,
-  "map_area": 5.882
+  "map_area": 5.885
  },
  {
   "alpha2": "HT",
@@ -2186,7 +2186,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 2.262
+  "map_area": 2.266
  },
  {
   "alpha2": "HU",
@@ -2230,7 +2230,7 @@
   "continent": "Asia",
   "eu_member": false,
   "map_available": true,
-  "map_area": 141.506
+  "map_area": 141.5
  },
  {
   "alpha2": "IE",
@@ -2354,7 +2354,7 @@
   "continent": "Asia",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.001
+  "map_area": 0.002
  },
  {
   "alpha2": "IQ",
@@ -2376,7 +2376,7 @@
   "continent": "Asia",
   "eu_member": false,
   "map_available": true,
-  "map_area": 42.216
+  "map_area": 42.215
  },
  {
   "alpha2": "IR",
@@ -2422,7 +2422,7 @@
   "continent": "Europe",
   "eu_member": false,
   "map_available": true,
-  "map_area": 19.4
+  "map_area": 19.401
  },
  {
   "alpha2": "IT",
@@ -2466,7 +2466,7 @@
   "continent": "Europe",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.014
+  "map_area": 0.013
  },
  {
   "alpha2": "JM",
@@ -2488,7 +2488,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.945
+  "map_area": 0.947
  },
  {
   "alpha2": "JO",
@@ -2512,7 +2512,7 @@
   "continent": "Asia",
   "eu_member": false,
   "map_available": true,
-  "map_area": 8.379
+  "map_area": 8.38
  },
  {
   "alpha2": "JP",
@@ -2534,7 +2534,7 @@
   "continent": "Asia",
   "eu_member": false,
   "map_available": true,
-  "map_area": 37.201
+  "map_area": 37.214
  },
  {
   "alpha2": "KE",
@@ -2556,7 +2556,7 @@
   "continent": "Africa",
   "eu_member": false,
   "map_available": true,
-  "map_area": 47.641
+  "map_area": 47.646
  },
  {
   "alpha2": "KG",
@@ -2622,7 +2622,7 @@
   "continent": "Oceania",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.057
+  "map_area": 0.055
  },
  {
   "alpha2": "KM",
@@ -2644,7 +2644,7 @@
   "continent": "Africa",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.133
+  "map_area": 0.134
  },
  {
   "alpha2": "KN",
@@ -2666,7 +2666,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.021
+  "map_area": 0.019
  },
  {
   "alpha2": "KP",
@@ -2688,7 +2688,7 @@
   "continent": "Asia",
   "eu_member": false,
   "map_available": true,
-  "map_area": 12.808
+  "map_area": 12.924
  },
  {
   "alpha2": "KR",
@@ -2712,7 +2712,7 @@
   "continent": "Asia",
   "eu_member": false,
   "map_available": true,
-  "map_area": 9.304
+  "map_area": 9.412
  },
  {
   "alpha2": "KW",
@@ -2734,7 +2734,7 @@
   "continent": "Asia",
   "eu_member": false,
   "map_available": true,
-  "map_area": 1.623
+  "map_area": 1.622
  },
  {
   "alpha2": "KY",
@@ -2756,7 +2756,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.023
+  "map_area": 0.022
  },
  {
   "alpha2": "KZ",
@@ -2780,7 +2780,7 @@
   "continent": "Asia",
   "eu_member": false,
   "map_available": true,
-  "map_area": 329.368
+  "map_area": 329.356
  },
  {
   "alpha2": "LA",
@@ -2846,7 +2846,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.048
+  "map_area": 0.049
  },
  {
   "alpha2": "LI",
@@ -2893,7 +2893,7 @@
   "continent": "Asia",
   "eu_member": false,
   "map_available": true,
-  "map_area": 5.402
+  "map_area": 5.412
  },
  {
   "alpha2": "LR",
@@ -2937,7 +2937,7 @@
   "continent": "Africa",
   "eu_member": false,
   "map_available": true,
-  "map_area": 2.801
+  "map_area": 2.803
  },
  {
   "alpha2": "LT",
@@ -3157,7 +3157,7 @@
   "continent": "Africa",
   "eu_member": false,
   "map_available": true,
-  "map_area": 51.018
+  "map_area": 51.016
  },
  {
   "alpha2": "MH",
@@ -3267,7 +3267,7 @@
   "continent": "Asia",
   "eu_member": false,
   "map_available": true,
-  "map_area": 184.623
+  "map_area": 184.622
  },
  {
   "alpha2": "MO",
@@ -3309,7 +3309,7 @@
   "continent": "Oceania",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.041
+  "map_area": 0.039
  },
  {
   "alpha2": "MQ",
@@ -3376,7 +3376,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.007
+  "map_area": 0.008
  },
  {
   "alpha2": "MT",
@@ -3398,7 +3398,7 @@
   "continent": "Europe",
   "eu_member": true,
   "map_available": true,
-  "map_area": 0.032
+  "map_area": 0.031
  },
  {
   "alpha2": "MU",
@@ -3420,7 +3420,7 @@
   "continent": "Africa",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.17
+  "map_area": 0.171
  },
  {
   "alpha2": "MV",
@@ -3442,7 +3442,7 @@
   "continent": "Asia",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.002
+  "map_area": 0.001
  },
  {
   "alpha2": "MW",
@@ -3574,7 +3574,7 @@
   "continent": "Oceania",
   "eu_member": false,
   "map_available": true,
-  "map_area": 1.596
+  "map_area": 1.595
  },
  {
   "alpha2": "NE",
@@ -3618,7 +3618,7 @@
   "continent": "Oceania",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.003
+  "map_area": 0.004
  },
  {
   "alpha2": "NG",
@@ -3684,7 +3684,7 @@
   "continent": "Europe",
   "eu_member": true,
   "map_available": true,
-  "map_area": 4.803
+  "map_area": 4.8
  },
  {
   "alpha2": "NO",
@@ -3750,7 +3750,7 @@
   "continent": "Oceania",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.002
+  "map_area": 0.001
  },
  {
   "alpha2": "NU",
@@ -3772,7 +3772,7 @@
   "continent": "Oceania",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.02
+  "map_area": 0.019
  },
  {
   "alpha2": "NZ",
@@ -3794,7 +3794,7 @@
   "continent": "Oceania",
   "eu_member": false,
   "map_available": true,
-  "map_area": 28.666
+  "map_area": 28.658
  },
  {
   "alpha2": "OM",
@@ -3882,7 +3882,7 @@
   "continent": "Oceania",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.211
+  "map_area": 0.205
  },
  {
   "alpha2": "PG",
@@ -3926,7 +3926,7 @@
   "continent": "Asia",
   "eu_member": false,
   "map_available": true,
-  "map_area": 23.004
+  "map_area": 23.01
  },
  {
   "alpha2": "PK",
@@ -3994,7 +3994,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.028
+  "map_area": 0.025
  },
  {
   "alpha2": "PN",
@@ -4038,7 +4038,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.756
+  "map_area": 0.745
  },
  {
   "alpha2": "PS",
@@ -4171,7 +4171,7 @@
   "continent": "Africa",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.224
+  "map_area": 0.221
  },
  {
   "alpha2": "RO",
@@ -4217,7 +4217,7 @@
   "continent": "Europe",
   "eu_member": false,
   "map_available": true,
-  "map_area": 8.735
+  "map_area": 8.733
  },
  {
   "alpha2": "RU",
@@ -4243,7 +4243,7 @@
   "continent": "Europe",
   "eu_member": false,
   "map_available": true,
-  "map_area": 2821.782
+  "map_area": 2821.794
  },
  {
   "alpha2": "RW",
@@ -4311,7 +4311,7 @@
   "continent": "Oceania",
   "eu_member": false,
   "map_available": true,
-  "map_area": 2.002
+  "map_area": 1.988
  },
  {
   "alpha2": "SC",
@@ -4333,7 +4333,7 @@
   "continent": "Africa",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.03
+  "map_area": 0.028
  },
  {
   "alpha2": "SD",
@@ -4355,7 +4355,7 @@
   "continent": "Africa",
   "eu_member": false,
   "map_available": true,
-  "map_area": 156.883
+  "map_area": 156.885
  },
  {
   "alpha2": "SE",
@@ -4421,7 +4421,7 @@
   "continent": "Africa",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.029
+  "map_area": 0.027
  },
  {
   "alpha2": "SI",
@@ -4463,7 +4463,7 @@
   "continent": "Europe",
   "eu_member": false,
   "map_available": true,
-  "map_area": 24.943
+  "map_area": 24.946
  },
  {
   "alpha2": "SK",
@@ -4529,7 +4529,7 @@
   "continent": "Europe",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.005
+  "map_area": 0.004
  },
  {
   "alpha2": "SN",
@@ -4573,7 +4573,7 @@
   "continent": "Africa",
   "eu_member": false,
   "map_available": true,
-  "map_area": 38.485
+  "map_area": 52.324
  },
  {
   "alpha2": "SR",
@@ -4639,7 +4639,7 @@
   "continent": "Africa",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.081
+  "map_area": 0.084
  },
  {
   "alpha2": "SV",
@@ -4750,7 +4750,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.032
+  "map_area": 0.033
  },
  {
   "alpha2": "TD",
@@ -4794,7 +4794,7 @@
   "continent": "Antarctica",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.84
+  "map_area": 0.838
  },
  {
   "alpha2": "TG",
@@ -4902,7 +4902,7 @@
   "continent": "Asia",
   "eu_member": false,
   "map_available": true,
-  "map_area": 1.228
+  "map_area": 1.23
  },
  {
   "alpha2": "TM",
@@ -4968,7 +4968,7 @@
   "continent": "Oceania",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.044
+  "map_area": 0.045
  },
  {
   "alpha2": "TR",
@@ -5012,7 +5012,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.428
+  "map_area": 0.429
  },
  {
   "alpha2": "TV",
@@ -5056,7 +5056,7 @@
   "continent": "Asia",
   "eu_member": false,
   "map_available": true,
-  "map_area": 3.176
+  "map_area": 3.172
  },
  {
   "alpha2": "TZ",
@@ -5078,7 +5078,7 @@
   "continent": "Africa",
   "eu_member": false,
   "map_available": true,
-  "map_area": 76.783
+  "map_area": 76.784
  },
  {
   "alpha2": "UA",
@@ -5122,7 +5122,7 @@
   "continent": "Africa",
   "eu_member": false,
   "map_available": true,
-  "map_area": 19.631
+  "map_area": 19.661
  },
  {
   "alpha2": "UM",
@@ -5164,7 +5164,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 1102.17
+  "map_area": 1102.206
  },
  {
   "alpha2": "UY",
@@ -5318,7 +5318,7 @@
   "continent": "North America",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.025
+  "map_area": 0.024
  },
  {
   "alpha2": "VN",
@@ -5362,7 +5362,7 @@
   "continent": "Oceania",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.954
+  "map_area": 0.969
  },
  {
   "alpha2": "WF",
@@ -5384,7 +5384,7 @@
   "continent": "Oceania",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.01
+  "map_area": 0.011
  },
  {
   "alpha2": "WS",
@@ -5452,7 +5452,7 @@
   "continent": "Africa",
   "eu_member": false,
   "map_available": true,
-  "map_area": 0.033
+  "map_area": 0.032
  },
  {
   "alpha2": "ZA",

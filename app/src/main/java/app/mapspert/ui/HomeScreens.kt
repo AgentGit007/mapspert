@@ -80,35 +80,39 @@ fun HomeScreen(vm: AppViewModel) {
         verticalArrangement = Arrangement.spacedBy(14.dp),
     ) {
         item {
-            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.Top) {
-                Column(Modifier.weight(1f)) {
-                    Mono(
-                        stringResource(R.string.ui_tagline),
-                        color = if (LocalIsDarkTheme.current) Kosmos.Ochre else Color(0xFFA4483A),
-                        caps = true,
-                    )
-                    Spacer(Modifier.height(6.dp))
-                    Text(
-                        stringResource(R.string.ui_mapspert).uppercase(),
-                        style = MaterialTheme.typography.headlineLarge,
-                        fontWeight = FontWeight.ExtraBold,
-                    )
-                    Spacer(Modifier.height(8.dp))
-                    RetroRule()
-                    Spacer(Modifier.height(8.dp))
-                    Mono(
-                        stringResource(R.string.ui_operator, vm.player),
-                        color = MaterialTheme.colorScheme.onBackground,
-                        alpha = 0.7f,
-                        caps = true,
-                    )
-                }
+            // The title gets a full-width line of its own: next to three 48dp buttons it
+            // only had ~185dp, and Unbounded's "MAPSPERT" needs ~190dp at this size, so
+            // the T wrapped on narrower phones (S22 Ultra).
+            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                Mono(
+                    stringResource(R.string.ui_operator, vm.player),
+                    color = MaterialTheme.colorScheme.onBackground,
+                    alpha = 0.7f,
+                    caps = true,
+                    modifier = Modifier.weight(1f),
+                )
                 IconBadge(AppIcon.BROWSE, { vm.navigate(Screen.Browse) })
                 Spacer(Modifier.size(8.dp))
                 IconBadge(AppIcon.STATS, { vm.navigate(Screen.Stats) })
                 Spacer(Modifier.size(8.dp))
                 IconBadge(AppIcon.SETTINGS, { vm.navigate(Screen.Settings) })
             }
+            Spacer(Modifier.height(10.dp))
+            Text(
+                stringResource(R.string.ui_mapspert).uppercase(),
+                style = MaterialTheme.typography.headlineLarge,
+                fontWeight = FontWeight.ExtraBold,
+                maxLines = 1,
+                softWrap = false,
+            )
+            Spacer(Modifier.height(8.dp))
+            RetroRule()
+            Spacer(Modifier.height(8.dp))
+            Mono(
+                stringResource(R.string.ui_tagline),
+                color = if (LocalIsDarkTheme.current) Kosmos.Ochre else Color(0xFFA4483A),
+                caps = true,
+            )
             Spacer(Modifier.height(14.dp))
             HomeGlobe(vm)
         }

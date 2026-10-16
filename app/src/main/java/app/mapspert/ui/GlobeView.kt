@@ -323,6 +323,14 @@ private fun DrawScope.drawGlobe(
 
     val pxPerDeg = cam.radiusPx * (Math.PI / 180.0).toFloat()
     val dotted = ArrayList<MapShape>()
+    // Zoomed in, draw the detailed outlines (the hit-test level of detail) so borders
+    // are not angular, and skip countries that cannot be in view so the extra points
+    // cost little. Each outline is built once and reused for its border below.
+    val fine = cam.radiusPx / (size.minDimension * 0.46f) >= 3f
+    val halfDiag = hypot(size.width, size.height) / 2f
+    val viewDeg = if (halfDiag >= cam.radiusPx) 180f
+        else Math.toDegrees(kotlin.math.asin((halfDiag / cam.radiusPx).toDouble())).toFloat()
+    val built = ArrayList<Pair<MapShape, List<Path>>>(shapes.size)
     for (s in shapes) {
         val inPool = s.alpha2 in pool
         val fill = fillFor(s) ?: if (inPool) colors.land else colors.muted
@@ -330,7 +338,12 @@ private fun DrawScope.drawGlobe(
             dotted.add(s)
             continue
         }
-        for (ring in s.drawRings) {
+        if (viewDeg < 90f &&
+            GlobeMath.angularDistance(cam.centreLon, cam.centreLat, s.centerLon, s.centerLat) >
+            viewDeg + max(s.widthDeg, s.heightDeg)
+        ) continue
+        val paths = ArrayList<Path>()
+        for (ring in if (fine) s.rings else s.drawRings) {
             if (ring.size < 8) continue
             val path = buildRingPath(cam, ring, p) ?: continue
             drawPath(path, fill)
@@ -338,7 +351,9 @@ private fun DrawScope.drawGlobe(
             // of ocean can show between two countries. Stroking each fill in its own
             // colour closes it; neighbours usually share a colour, so it is invisible.
             drawPath(path, fill, style = Stroke(width = sealPx))
+            paths.add(path)
         }
+        built.add(s to paths)
     }
 
     // Borders: dark ink, in dp so they hold up on dense screens. Thinner at world view,
@@ -347,8 +362,7 @@ private fun DrawScope.drawGlobe(
     val zoomT = ((cam.radiusPx / (size.minDimension * 0.46f) - 1f) / 1.5f).coerceIn(0f, 1f)
     val poolStroke = Stroke(width = (0.9f + 0.5f * zoomT).dp.toPx(), join = StrokeJoin.Round)
     val otherStroke = Stroke(width = (0.7f + 0.3f * zoomT).dp.toPx(), join = StrokeJoin.Round)
-    for (s in shapes) {
-        if (s.alpha2 in dotSet) continue
+    for ((s, paths) in built) {
         val inPool = s.alpha2 in pool
         val color = if (inked) {
             colors.border.copy(alpha = colors.border.alpha * if (inPool) 0.9f else 0.6f)
@@ -356,11 +370,7 @@ private fun DrawScope.drawGlobe(
             colors.line.copy(alpha = if (inPool) 0.30f else 0.12f)
         }
         val stroke = if (!inked) Stroke(width = 1f) else if (inPool) poolStroke else otherStroke
-        for (ring in s.drawRings) {
-            if (ring.size < 8) continue
-            val path = buildRingPath(cam, ring, p) ?: continue
-            drawPath(path, color, style = stroke)
-        }
+        for (path in paths) drawPath(path, color, style = stroke)
     }
 
     // Dots last so they are never covered by a neighbour's fill.

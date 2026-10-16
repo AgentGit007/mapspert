@@ -44,8 +44,28 @@ fun KnowledgeGlobeScreen(vm: AppViewModel, playerName: String) {
     val stats = remember(playerName, vm.countryStats) { vm.statsFor(playerName) }
     val shapes = vm.map.shapes
     val all = remember { shapes.map { it.alpha2 }.toSet() }
-    val start = remember { GlobeMath.frame(shapes, all) }
-    val state = rememberGlobeState(start[0], start[1], 1f)
+    // Open on the continent with the most countries played. Framing every country at
+    // once spans the antimeridian, which turned the globe to the Pacific. Ties go to
+    // the first continent in this list; nothing played yet opens on Europe and Africa.
+    val start = remember(stats) {
+        val byCode = vm.countries.associateBy { it.alpha2 }
+        val played = stats.values.filter { it.seen > 0 }
+            .mapNotNull { byCode[it.alpha2] }
+            .filter { it.mapAvailable }
+        val order = listOf("Europe", "Asia", "Africa", "North America", "South America", "Oceania")
+        val best = played.groupingBy { it.continent }.eachCount().entries
+            .maxWithOrNull(
+                compareBy<Map.Entry<String, Int>> { it.value }
+                    .thenByDescending { e -> order.indexOf(e.key).let { if (it < 0) order.size else it } },
+            )?.key
+        if (best == null) {
+            floatArrayOf(15f, 30f, 1f)
+        } else {
+            val f = GlobeMath.frame(shapes, played.filter { it.continent == best }.map { it.alpha2 }.toSet())
+            floatArrayOf(f[0], f[1], f[2].coerceIn(1f, 2.2f))
+        }
+    }
+    val state = rememberGlobeState(start[0], start[1], start[2])
     var selected by remember { mutableStateOf<String?>(null) }
 
     val solid = cs.primary
